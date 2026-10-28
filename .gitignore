@@ -1,0 +1,32 @@
+# Dossiers et donnees du jeu original sous copyright (A NE JAMAIS INCLURE)
+Hitman Codename 47/
+hitman/
+Hitman/
+*.c47p
+data.c47p
+
+# Dossiers de conversion intermediaires contenant les assets du jeu
+convertion/
+build/
+build-phase3/
+
+# Fichiers binaires intermediaires de build
+*.elf
+*.o
+*.d
+*.shbin
+
+# Fichiers d'installation et temporaires
+*.msi
+*.log
+c47tool_error.log
+c47tool.json
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# OS / Editeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

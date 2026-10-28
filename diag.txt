@@ -1,0 +1,1169 @@
+=== DIAGNOSTIC C0_1 ===
+objets: 2399  (avec maillage: 1790)
+maillages uniques: 1516
+
+--- TEXTURES ---
+textures de base referencees: 209  -> INTROUVABLES: 0
+lightmaps referencees: 685  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 0
+textures > 512 px: 1  ex: [('', 2, 13970)]
+
+--- FACES (instances dans la scene) ---
+texturees                                32144
+texture+lightmap                         3316
+lightmap seule                           47
+SANS texture ni lightmap (blanches)      923
+objets avec le plus de faces blanches:
+        48  type 2  PosBox_CartridgeEject
+        48  type 2  PosBox_MuzzleFlash
+        48  type 2  PosBox_MuzzleSmoke
+        48  type 2  PosBox_Light
+        48  type 2  PosBox_MuzzleExit
+        41  type 2  StaticCam_01_Box
+        34  type 22  Ground
+        28  type 2  Ground
+        20  type 2  StaticCam_02_Box
+        18  type 28  InsideBound_01
+        18  type 2  DDooor_L_00
+        18  type 2  DDooor_R_00
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+       255  0x00FFFF00
+       252  0x00FFD700
+       191  0x005858E1
+       108  0x00C5C500
+        36  0x001AB194
+        19  0x00530023
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 1
+   maillage 529: UV max 9.22e+05, non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2:  1526 objets ( 1526 avec maillage) profondeur max 8  ex: ActivateBox A, ActivateBox B, ActivateBox C
+type    1:   276 objets (    0 avec maillage) profondeur max 7  ex: AK103_Empty, AK103_ReloadChamber, AK103_ReloadClipIn
+type   11:    73 objets (   73 avec maillage) profondeur max 8  ex: BloodBurst03_00+[00, Flash+[00, Glow+[00
+type   35:    63 objets (    0 avec maillage) profondeur max 6  ex: Spot01, Spot02, Spot03
+type   36:    46 objets (    0 avec maillage) profondeur max 8  ex: Omni Target RT_01, Omni Target RT_02, Omni Target RT_03
+type   21:    43 objets (   43 avec maillage) profondeur max 4  ex: Gate01, Gate02, Gate03
+type    3:    36 objets (    0 avec maillage) profondeur max 6  ex: Cam_Hitman_Exit_Mappos_OverrideBackCol, Camera01, Camera01(0-100)
+type  109:    35 objets (    0 avec maillage) profondeur max 4  ex: Pickup Ammo 762, Pickup Ammo 762#0, Pickup Ammo 762#1
+type   17:    35 objets (   35 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   44:    33 objets (   33 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type   26:    30 objets (    0 avec maillage) profondeur max 4  ex: ActiveCameraList, CameraControlList, CutSequence
+type   18:    26 objets (   26 avec maillage) profondeur max 3  ex: AirVent, AirVent#0, AirVent#1
+type  225:    25 objets (   25 avec maillage) profondeur max 3  ex: C5-2_CloseCombatCourse, C5-2_Corridor-101_Elevator, C5-2_Corridor-101_Enter
+type   33:    23 objets (    0 avec maillage) profondeur max 5  ex: C5-2_CloneLab, C5-2_CloseCombatCourse, C5-2_Corridor-101
+type   46:    16 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+type  101:    14 objets (    0 avec maillage) profondeur max 4  ex: Pickup AK-103, Pickup AK-103#0, Pickup Beretta 92
+type   13:    13 objets (    0 avec maillage) profondeur max 5  ex: Spot01, Spot01 -AMBIENT, Spot01_Basement_AMBIENT
+type   51:    13 objets (    0 avec maillage) profondeur max 7  ex: CloseCombatPianoWire, ClosecombatKnifePentagon, GunBeretta92
+type  105:    11 objets (    0 avec maillage) profondeur max 6  ex: CloseCombatKnifePentagon, CloseCombatPianoWire, CloseCombatStungun
+type   34:     9 objets (    0 avec maillage) profondeur max 5  ex: CrossHair, T1Guide_stairs01, T1Guide_stairs02
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 25
+    53 objets en (0.0, 0.0, 0.0)  types [2, 17, 22, 39, 111, 225]  parent: PROT
+        ex: AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, Box, BulletHole_Asphalt_01_nomip
+    18 objets en (-3847.0, -1158.7, 239.0)  types [2]  parent: DynShatter00_03 / Default
+        ex: Defaulten02, Piece_33, Piece_34, Piece_35, Piece_36
+    18 objets en (-3842.0, -1126.0, 239.0)  types [2]  parent: DynShatter00_02 / Default
+        ex: Defaulten01, Piece_17, Piece_18, Piece_19, Piece_20
+    18 objets en (-3842.0, -1326.0, 239.0)  types [2]  parent: DynShatter00_01 / Default
+        ex: Defaulten, Piece_01, Piece_02, Piece_03, Piece_04
+    18 objets en (-3492.0, -1163.0, 790.0)  types [2]  parent: DynShatter00_18 / Default
+        ex: Defaulten17, Piece_273, Piece_274, Piece_275, Piece_276
+    18 objets en (-3498.0, -1126.0, 790.0)  types [2]  parent: DynShatter00_17 / Default
+        ex: Defaulten16, Piece_257, Piece_258, Piece_259, Piece_260
+    18 objets en (-3328.0, -1126.0, 509.0)  types [2]  parent: DynShatter00_16 / Default
+        ex: Defaulten15, Piece_241, Piece_242, Piece_243, Piece_244
+    18 objets en (-3158.0, -1126.0, 900.0)  types [2]  parent: DynShatter00_15 / Default
+        ex: Defaulten14, Piece_225, Piece_226, Piece_227, Piece_228
+    18 objets en (-3152.0, -1326.0, 900.0)  types [2]  parent: DynShatter00_14 / Default
+        ex: Defaulten13, Piece_209, Piece_210, Piece_211, Piece_212
+    18 objets en (-3328.0, -1363.0, 509.0)  types [2]  parent: DynShatter00_13 / Default
+        ex: Defaulten12, Piece_193, Piece_194, Piece_195, Piece_196
+
+============================================================
+
+=== DIAGNOSTIC C1_1 ===
+objets: 4636  (avec maillage: 3506)
+maillages uniques: 1711
+
+--- TEXTURES ---
+textures de base referencees: 266  -> INTROUVABLES: 0
+lightmaps referencees: 786  -> INTROUVABLES: 1  ids [24]
+textures ENTIEREMENT transparentes (alpha=0 partout): 0
+textures > 512 px: 1  ex: [('', 2, 9952)]
+
+--- FACES (instances dans la scene) ---
+texturees                                74750
+texture+lightmap                         19065
+lightmap seule                           72
+SANS texture ni lightmap (blanches)      3205
+objets avec le plus de faces blanches:
+       136  type 2  Arrow#2
+       136  type 2  Arrow#1
+       136  type 2  Arrow#0
+       136  type 2  Arrow
+       112  type 22  Ground
+       108  type 2  ClothBox_01
+        66  type 2  TeleWire01_03
+        51  type 2  Arrow#3
+        44  type 2  TeleWire01_05
+        44  type 2  TeleWire01_01
+        44  type 2  TeleWire01_02
+        36  type 2  LiftDoor
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+      1462  0x00FFFF00
+       525  0x00911CB1
+       392  0x005858E1
+       264  0x00848484
+       174  0x00FFD700
+       145  0x008C58E1
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2:  3204 objets ( 3204 avec maillage) profondeur max 8  ex: AmmoMachinegun, AmmoMagnum, AmmoRifle556
+type    1:   690 objets (    0 avec maillage) profondeur max 7  ex: AllLevels/AllLevels_Sound.zip, AllLevels/HitmanDress.zip, AllLevels/IngameDisplayItems.zip
+type   40:   222 objets (    0 avec maillage) profondeur max 6  ex: BoxGBuild01a_LODa00_00, BoxGBuild02_LODa00_00, BoxGBuild02_LODa_00_00
+type   21:    83 objets (   83 avec maillage) profondeur max 4  ex: Gate01, Gate02, Gate03
+type  225:    67 objets (   67 avec maillage) profondeur max 5  ex: Box, Box#0, Box#1
+type   26:    58 objets (    0 avec maillage) profondeur max 4  ex: ActiveCameraList, CameraControlList, CutSequence01Limo1
+type   11:    41 objets (   41 avec maillage) profondeur max 7  ex: BloodBurst03_00+[00, Flash+[00, Glow+[00
+type   17:    33 objets (   33 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   44:    32 objets (   32 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type   33:    23 objets (    0 avec maillage) profondeur max 4  ex: C1-1_BackdropBox, C1-1_EastRoad, C1-1_EntranceEast
+type    3:    22 objets (    0 avec maillage) profondeur max 7  ex: Cam_Chopper_End, Cam_Chopper_Start, Cam_Right_Arm_OverrideBackCol
+type   22:    20 objets (   20 avec maillage) profondeur max 4  ex: Ground
+type   18:    19 objets (   19 avec maillage) profondeur max 7  ex: Left, Right, SoundStreetAmbience
+type   46:    17 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+type   34:    15 objets (    0 avec maillage) profondeur max 5  ex: Black Line 01, Black Line 02, Black Line 03
+type   35:    12 objets (    0 avec maillage) profondeur max 6  ex: Spot01, Spot01 -AMBIENT, Spot02
+type   51:    12 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, CloseCombatPianoWire, ClosecombatKnifeOyabun
+type  106:    11 objets (    0 avec maillage) profondeur max 7  ex: AmmoBlowDart, AmmoKnife, AmmoMachinegun
+type   36:     9 objets (    0 avec maillage) profondeur max 5  ex: Omni01, Omni02, Omni03
+type  200:     7 objets (    0 avec maillage) profondeur max 3  ex: Empty, Pedestrian01, Pedestrian02
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 11
+    60 objets en (-0.0, -0.0, 0.0)  types [2, 17, 18, 111, 225]  parent: InsidePark / C1-1_EntranceSouth
+        ex: AmmoMachinegun, Arrow, BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+    15 objets en (-1600.0, 0.0, 9700.0)  types [22]  parent: Characters / BlueLotusMember15
+        ex: Ground
+    15 objets en (0.1, 0.1, -2.5)  types [2, 11]  parent: Impacts / BulletHit_Metal
+        ex: Pebble, Pebble#0, Pebble#1, Pebble#2, Pebble#3
+    13 objets en (-1600.0, 152.3, 9722.5)  types [2]  parent: Characters / BlueLotusMember15
+        ex: ClothBox_01
+    12 objets en (0.0, 100.0, 2000.0)  types [2]  parent: InsidePark / C1-1_Temple
+        ex: StairWall_09, StairWall_10, StairWall_11, StairWall_12, StairWall_13
+     9 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_SuitcaseSniper, Weapons_Monitor_Beretta92, Weapons_Monitor_Hardballer, Weapons_Monitor_KnifeOyabun, Weapons_Monitor_M60
+     9 objets en (0.0, 0.0, 10.0)  types [17]  parent: IngameDisplay / FrameGfx1
+        ex: ContextFrame1, ContextFrame2, ContextFrame3, ContextFrame4, ContextFrame5
+     6 objets en (0.0, 900.0, 2000.0)  types [2]  parent: InsidePark / C1-1_Temple
+        ex: Ceiling_01, Ceiling_02, Ceiling_03, Ceiling_04, Ceiling_05
+     5 objets en (4790.9, -20.0, -9666.3)  types [2]  parent: Car_05_Limo_LowPoly / CarBody
+        ex: MimoChassis, NimoChassis, OimoChassis, PimoChassis, QimoChassis
+     5 objets en (4751.7, -20.0, -10947.1)  types [2]  parent: Car_05_Limo_LowPoly / CarBody
+        ex: MimoChassis, NimoChassis, OimoChassis, PimoChassis, QimoChassis
+
+============================================================
+
+=== DIAGNOSTIC C1_2 ===
+objets: 2884  (avec maillage: 2005)
+maillages uniques: 1148
+
+--- TEXTURES ---
+textures de base referencees: 313  -> INTROUVABLES: 0
+lightmaps referencees: 449  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 1  ex: ['RoadStripe_01']
+textures > 512 px: 1  ex: [('', 2, 5770)]
+
+--- FACES (instances dans la scene) ---
+texturees                                49629
+texture+lightmap                         7408
+lightmap seule                           58
+SANS texture ni lightmap (blanches)      3042
+objets avec le plus de faces blanches:
+       110  type 22  Ground
+        78  type 2  Cloth_Selector
+        66  type 2  Cloth_Selector01
+        66  type 2  TeleWire01_12
+        54  type 2  Cloth_Selector02
+        54  type 2  ClothBox_01
+        48  type 2  PosBox_CartridgeEject
+        48  type 2  PosBox_MuzzleFlash
+        48  type 2  PosBox_MuzzleSmoke
+        48  type 2  PosBox_Light
+        48  type 2  PosBox_MuzzleExit
+        44  type 2  TeleWire01_06
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+       986  0x00FFFF00
+       494  0x005858E1
+       440  0x00848484
+       252  0x003D8606
+       246  0x00FFD700
+       168  0x00E05656
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2:  1727 objets ( 1727 avec maillage) profondeur max 8  ex: AmmoMachinegun, AmmoMagnum, AmmoRifle556
+type    1:   571 objets (    0 avec maillage) profondeur max 7  ex: AllLevels/AllLevels_Sound.zip, AllLevels/HitmanDress.zip, AllLevels/IngameDisplayItems.zip
+type   21:    64 objets (   64 avec maillage) profondeur max 4  ex: Gate01, Gate02, Gate04
+type   11:    58 objets (   58 avec maillage) profondeur max 7  ex: Blast_Glow+[00, BloodBurst03_00+[00, Fire_01+[00
+type   44:    47 objets (   47 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type   26:    40 objets (    0 avec maillage) profondeur max 4  ex: ActiveCameraList, CameraControlList, CarArrival
+type   35:    36 objets (    0 avec maillage) profondeur max 6  ex: RealTimeSpot02, RealTimeSpot03, RealTimeSpot04
+type   40:    33 objets (    0 avec maillage) profondeur max 6  ex: BoxGBuild01a_LODa00_00, BoxGBuild02_LODa_00_00, BoxG_Build01_LODa00_00
+type   17:    33 objets (   33 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   51:    28 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, BombCar, BombCarTrigger
+type   33:    25 objets (    0 avec maillage) profondeur max 3  ex: C1-2_BackdropBox, C1-2_RoadOutside07, C1-3_Section_Sewer_01
+type    3:    23 objets (    0 avec maillage) profondeur max 7  ex: Cam_Place_CarBomb, Cam_Right_Arm_OverrideBackCol, Cam_Right_OverrideBackCol
+type   22:    23 objets (   23 avec maillage) profondeur max 4  ex: Ground
+type  225:    20 objets (   20 avec maillage) profondeur max 4  ex: Box, CarGuardInsideBox_bg, Die_Hero_Box
+type   46:    18 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+type  102:    17 objets (    0 avec maillage) profondeur max 6  ex: Binoculars, BombCar, BombCarIgnition
+type  109:    15 objets (    0 avec maillage) profondeur max 4  ex: Pickup SniperAmmo, Pickup SniperAmmo#0, Pickup SniperAmmo#1
+type   36:    14 objets (    0 avec maillage) profondeur max 5  ex: Omni01, Omni02, Omni03
+type   18:    13 objets (   13 avec maillage) profondeur max 5  ex: Left, Right, SoundSewerBuble
+type   28:    12 objets (   12 avec maillage) profondeur max 4  ex: InsideBound_01, InsideBound_02, InsideBound_03
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 11
+    64 objets en (0.0, 0.0, 0.0)  types [2, 11, 17, 225]  parent: PROT / CutScenes/HitmanDying.zip
+        ex: AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip, BulletHole_Carpet_01_nomip
+    19 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_BombCar, Items_Monitor_Envelope, Items_Monitor_KevlarVest, Items_Monitor_SuitcaseSniper, Weapons_Monitor_Beretta92
+    16 objets en (12.7, 1.8, -0.4)  types [2]  parent: Items / Envelope04_C3_1
+        ex: Binoculars, BombCar, BombCar_Ignition, BombRemote Remote, Envelope01
+    15 objets en (0.1, 0.1, -2.5)  types [2, 11]  parent: Impacts / BulletHit_Metal
+        ex: Pebble, Pebble#0, Pebble#1, Pebble#2, Pebble#3
+     9 objets en (0.0, 0.0, 10.0)  types [17]  parent: IngameDisplay / FrameGfx1
+        ex: ContextFrame1, ContextFrame2, ContextFrame3, ContextFrame4, ContextFrame5
+     6 objets en (-2405.3, 0.0, -1608.3)  types [2]  parent: Build02_00_00 / Building02_LODa01_00
+        ex: LowDetail, LowDetail01
+     6 objets en (16.1, 0.9, -0.5)  types [2]  parent: Items / GunBeretta92
+        ex: Beretta92, Beretta92Silenced, Beretta92Silenced_Slide, Beretta92Silenced_SlideMatPos_Activate, Beretta92_Slide
+     5 objets en (460.0, 28.0, 29.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_Binocoluars, Items_Monitor_BombCarControl, Items_Monitor_BombRemote, Items_Monitor_BombRemoteControl, Items_Monitor_Compas
+     5 objets en (1280.7, 0.0, -1280.4)  types [2]  parent: Build01_00_00 / Building01_LODa01_00
+        ex: BuildingLowDetail
+     5 objets en (-2419.3, 0.0, -3680.4)  types [2]  parent: Build01_00_02 / Building01_LODa01_02
+        ex: BuildingLowDetail, BuildingLowDetail02, BuildingLowDetail03
+
+============================================================
+
+=== DIAGNOSTIC C1_3 ===
+objets: 4169  (avec maillage: 2872)
+maillages uniques: 1439
+
+--- TEXTURES ---
+textures de base referencees: 326  -> INTROUVABLES: 0
+lightmaps referencees: 425  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 5  ex: ['C1_Firestairs01_0000_S', 'C1_Firestairs01_0000_E', 'C1_Firestairs01_0000_N', 'C1_Firestairs01_0000_W', 'RoadStripe_01']
+textures > 512 px: 1  ex: [('', 2, 4006)]
+
+--- FACES (instances dans la scene) ---
+texturees                                59705
+texture+lightmap                         14917
+lightmap seule                           41
+SANS texture ni lightmap (blanches)      3107
+objets avec le plus de faces blanches:
+        94  type 22  Ground
+        84  type 2  PathFinder_Pos_08
+        84  type 2  PathFinder_Pos_07
+        66  type 2  TeleWire01_00
+        66  type 2  PathFinder_Pos_01
+        60  type 2  PathFinder_Pos_11
+        48  type 2  PathFinder_Pos_14
+        48  type 2  PathFinder_Pos_13
+        48  type 2  PathFinder_Pos_02
+        42  type 2  PathFinder_Pos_12
+        42  type 2  PosBox_CartridgeEject
+        42  type 2  PosBox_MuzzleFlash
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+       969  0x00FFFF00
+       654  0x00C458E1
+       408  0x000000FF
+       286  0x005858E1
+       216  0x00FFD700
+       198  0x00848484
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 4
+   maillage 72: UV max 2, non finies: 12
+   maillage 1344: UV max 1, non finies: 24
+   maillage 82: UV max 1, non finies: 24
+   maillage 68: UV max 0.99, non finies: 12
+
+--- TYPES D'OBJETS ---
+type    2:  2502 objets ( 2502 avec maillage) profondeur max 8  ex: AmmoMachinegun, AmmoMagnum, AmmoRifle556
+type    1:  1049 objets (    0 avec maillage) profondeur max 7  ex: AllLevels/AllLevels_Sound.zip, AllLevels/HitmanDress.zip, AllLevels/IngameDisplayItems.zip
+type   21:   162 objets (  162 avec maillage) profondeur max 4  ex: Gate01, Gate02, Gate03
+type   33:    47 objets (    0 avec maillage) profondeur max 4  ex: C1-3_Kitchen, C1-3_Restaurant, C1-3_RoadSection_01a
+type   11:    44 objets (   44 avec maillage) profondeur max 5  ex: BloodBurst03_00+[00, Flash+[00, Glow+[00
+type   44:    36 objets (   36 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type  225:    34 objets (   34 avec maillage) profondeur max 4  ex: AmuletInRestaurantBox, BlueLotusAtRestaurantExit, BlueLotusClosingIn
+type   26:    33 objets (    0 avec maillage) profondeur max 4  ex: ActiveCameraList, CameraControlList, CutSceneObjects
+type    3:    33 objets (    0 avec maillage) profondeur max 6  ex: Cam_HideGun, Cam_Right_Arm_OverrideBackCol, Cam_Right_OverrideBackCol
+type   17:    33 objets (   33 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   22:    20 objets (   20 avec maillage) profondeur max 4  ex: Ground, RedDragon
+type   18:    19 objets (   19 avec maillage) profondeur max 5  ex: Left, Right, Sound
+type   35:    17 objets (    0 avec maillage) profondeur max 5  ex: Spot01, Spot02, Spot03
+type   46:    17 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+type  200:    16 objets (    0 avec maillage) profondeur max 3  ex: AsianBartenderHelpList, AsianBartenderSafeList, AsianChefList
+type   51:    16 objets (    0 avec maillage) profondeur max 7  ex: AmuletRedDragon, Binoculars, CloseCombatPianoWire
+type   28:    14 objets (   14 avec maillage) profondeur max 4  ex: InsideBound_007, InsideBound_01, InsideBound_02
+type   36:    12 objets (    0 avec maillage) profondeur max 5  ex: Omni02, Omni03, Omni04
+type  106:    11 objets (    0 avec maillage) profondeur max 5  ex: AmmoBlowDart, AmmoKnife, AmmoMachinegun
+type  105:    10 objets (    0 avec maillage) profondeur max 4  ex: CloseCombatKnifeKitchen, CloseCombatKnifeOyabun, CloseCombatPianoWire
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 24
+    70 objets en (0.0, 0.0, 0.0)  types [2, 17, 22, 111, 225]  parent: Characters / RegularAsianMale_04
+        ex: AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip, BulletHole_Carpet_01_nomip
+    16 objets en (30.0, 225.0, 300.0)  types [2]  parent: DynShatter00_01 / Broken
+        ex: Pieces_02, Pieces_03, Pieces_04, Pieces_05, Pieces_06
+    16 objets en (30.0, 225.0, 550.0)  types [2]  parent: DynShatter00_02 / Broken
+        ex: Pieces_18, Pieces_19, Pieces_20, Pieces_21, Pieces_22
+    16 objets en (290.0, 225.0, 30.0)  types [2]  parent: DynShatter00_01 / Broken
+        ex: Pieces_02, Pieces_03, Pieces_04, Pieces_05, Pieces_06
+    15 objets en (0.1, 0.1, -2.5)  types [2, 11]  parent: Impacts / BulletHit_Metal
+        ex: Pebble, Pebble#0, Pebble#1, Pebble#2, Pebble#3
+    13 objets en (550.9, 200.0, 48.3)  types [2]  parent: DynShatterBottle01_03 / Default
+        ex: BottleFragment_25, BottleFragment_26, BottleFragment_27, BottleFragment_28, BottleFragment_29
+    13 objets en (608.7, 243.4, 45.4)  types [2]  parent: DynShatterBottle01_02 / Default
+        ex: BottleFragment_01, BottleFragment_02, BottleFragment_03, BottleFragment_04, BottleFragment_05
+    13 objets en (638.5, 200.0, 48.3)  types [2]  parent: DynShatterBottle01_01 / Default
+        ex: BottleFragment_37, BottleFragment_38, BottleFragment_39, BottleFragment_40, BottleFragment_41
+    13 objets en (520.7, 200.0, 54.1)  types [2]  parent: DynShatterBottle01_04 / Default
+        ex: BottleFragment_13, BottleFragment_14, BottleFragment_15, BottleFragment_16, BottleFragment_17
+    13 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_AmuletRedDragon, Items_Monitor_KevlarVest, Items_Monitor_KeyToilet, Weapons_Monitor_Beretta92, Weapons_Monitor_Beretta92Silenced
+
+============================================================
+
+=== DIAGNOSTIC C1_4 ===
+objets: 10327  (avec maillage: 8017)
+maillages uniques: 5170
+
+--- TEXTURES ---
+textures de base referencees: 700  -> INTROUVABLES: 0
+lightmaps referencees: 2791  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 1  ex: ['RoadStripe_01']
+textures > 512 px: 1  ex: [('', 2, 47312)]
+
+--- FACES (instances dans la scene) ---
+texturees                                194528
+texture+lightmap                         24394
+lightmap seule                           378
+SANS texture ni lightmap (blanches)      10406
+objets avec le plus de faces blanches:
+       506  type 22  Ground
+       426  type 2  Cloth_Selector
+       420  type 2  Cloth_Selector01
+       414  type 2  Cloth_Selector02
+       214  type 28  InsideBound_01
+       118  type 28  InsideBound_02
+        90  type 2  Ground01
+        85  type 2  Sound_Rats
+        84  type 28  InsideBound_03
+        80  type 21  Gate01
+        72  type 2  ClothBox_01
+        72  type 2  Ground
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+      4947  0x00FFFF00
+      2333  0x005858E1
+       462  0x00FFD700
+       453  0x001AB194
+       440  0x00848484
+       345  0x00C5C500
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 1
+   maillage 20: UV max 2, non finies: 12
+
+--- TYPES D'OBJETS ---
+type    2:  6800 objets ( 6800 avec maillage) profondeur max 8  ex: Alcove_01, AmmoMachinegun, AmmoMagnum
+type    1:  1369 objets (    0 avec maillage) profondeur max 7  ex: -MasterLampGroup01, 1stfloor, AK47_Empty
+type   21:   437 objets (  437 avec maillage) profondeur max 5  ex: Gate00, Gate01, Gate011
+type   35:   347 objets (    0 avec maillage) profondeur max 7  ex: Lamp08_11, Lamp08_16, Lamp08_26
+type   11:   284 objets (  284 avec maillage) profondeur max 7  ex: BloodBurst03_00+[00, Flash+[00, Glow+[00
+type   33:   168 objets (    0 avec maillage) profondeur max 6  ex: C1-3_Section_Sewer_01, C1-4_Aquarium, C1-4_BackDrop
+type   28:   113 objets (  113 avec maillage) profondeur max 7  ex: BaseMent01, BaseMent02, BaseMent03
+type   22:   110 objets (  110 avec maillage) profondeur max 5  ex: Ground
+type  225:    91 objets (   91 avec maillage) profondeur max 4  ex: BackYardHQDooor, Balcony, Bar1
+type   18:    82 objets (   82 avec maillage) profondeur max 5  ex: Left, Right, SoundRumble
+type   26:    77 objets (    0 avec maillage) profondeur max 4  ex: 1st Floor, 2nd Floor, ActiveCameraList
+type   36:    76 objets (    0 avec maillage) profondeur max 5  ex: Omni01, Omni02, Omni03
+type    3:    52 objets (    0 avec maillage) profondeur max 7  ex: Cam_C1-4_putpoison, Cam_Right_Arm_OverrideBackCol, Cam_Right_OverrideBackCol
+type   44:    46 objets (   46 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type   40:    33 objets (    0 avec maillage) profondeur max 6  ex: BoxGBuild01a_LODa00_00, BoxGBuild02_LODa_00_00, BoxG_Build01_LODa00_00
+type   17:    33 objets (   33 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   51:    29 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, BottleFoodpoison, BrothelInvitation
+type  109:    27 objets (    0 avec maillage) profondeur max 4  ex: Pickup 7.62 Ammo, Pickup 7.62 Ammo#0, Pickup 7.62 Ammo#1
+type   13:    19 objets (    0 avec maillage) profondeur max 5  ex: EnvironmentLight, Spot -AMBIENT, Spot01
+type  102:    19 objets (    0 avec maillage) profondeur max 6  ex: Binoculars, BombCarIgnition, BombRemote Remote_old
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 58
+   100 objets en (0.0, 0.0, 0.0)  types [2, 11, 17, 22, 39, 225]  parent: PROT / CutScenes/HitmanDying.zip
+        ex: AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, Box103, BulletHole_Asphalt_01_nomip
+    41 objets en (-580.0, 100.0, 11095.0)  types [2]  parent: C1_HongKong/C1_4-TriadHQ.zip / C1-4_HQDojo
+        ex: Wall_01, Wall_02, Wall_03, Wall_04, Wall_05
+    21 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_BottleFoodPoison, Items_Monitor_BrothelInvitation, Items_Monitor_Envelope, Items_Monitor_FigureJade, Items_Monitor_KevlarVest
+    18 objets en (2000.0, 925.0, 2300.0)  types [2]  parent: C1_HongKong/C1_4-Brothel.zip / C1-4_PimpRoom
+        ex: Mirror, Mirror01, MirrorFragment_01, MirrorFragment_02, MirrorFragment_03
+    18 objets en (12.7, 1.8, -0.4)  types [2]  parent: Items / Envelope04_C3_1
+        ex: Binoculars, BombCar_Ignition, BottleFoodPoison, BrothelInvitation, ChineseSword
+    17 objets en (2450.0, 925.0, 3900.0)  types [2]  parent: C1_HongKong/C1_4-Brothel.zip / C1-4_BrothelRoom
+        ex: Mirror, MirrorFragment_01, MirrorFragment_02, MirrorFragment_03, MirrorFragment_04
+    17 objets en (1400.0, 925.0, 2750.0)  types [2]  parent: C1_HongKong/C1_4-Brothel.zip / C1-4_BrothelRoom.1
+        ex: Mirror, MirrorFragment_01, MirrorFragment_02, MirrorFragment_03, MirrorFragment_04
+    17 objets en (2300.0, 925.0, 3050.0)  types [2]  parent: C1_HongKong/C1_4-Brothel.zip / C1-4_BrothelRoom.2
+        ex: Mirror, MirrorFragment_01, MirrorFragment_02, MirrorFragment_03, MirrorFragment_04
+    17 objets en (1400.0, 925.0, 3200.0)  types [2]  parent: C1_HongKong/C1_4-Brothel.zip / C1-4_BrothelRoom.1#0
+        ex: Mirror, MirrorFragment_01, MirrorFragment_02, MirrorFragment_03, MirrorFragment_04
+    16 objets en (-3900.0, 1200.0, 1500.0)  types [2]  parent: C1_HongKong/C1_4-1stFloor.zip / C1-4_VIPFountain
+        ex: CeilingWindowFrame_03, CeilingWindowFrame_04, CeilingWindowFrame_05, CeilingWindowFrame_06, CeilingWindowFrame_07
+
+============================================================
+
+=== DIAGNOSTIC C2_1 ===
+objets: 9332  (avec maillage: 8166)
+maillages uniques: 2299
+
+--- TEXTURES ---
+textures de base referencees: 383  -> INTROUVABLES: 0
+lightmaps referencees: 855  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 1  ex: ['RedSpotSmoke_01']
+textures > 512 px: 1  ex: [('', 2, 32158)]
+
+--- FACES (instances dans la scene) ---
+texturees                                147183
+texture+lightmap                         44675
+lightmap seule                           16
+SANS texture ni lightmap (blanches)      7002
+objets avec le plus de faces blanches:
+       142  type 22  Ground
+        68  type 2  Arrow#0
+        68  type 2  Arrow
+        66  type 2  PosBox_CartridgeEject
+        66  type 2  PosBox_MuzzleFlash
+        66  type 2  PosBox_MuzzleSmoke
+        66  type 2  PosBox_Light
+        66  type 2  PosBox_MuzzleExit
+        51  type 2  Arrow#2
+        51  type 2  Arrow#1
+        51  type 2  Pos2
+        51  type 2  Pos3_4
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+      3084  0x003D8606
+      1870  0x00FFFF00
+       412  0x005858E1
+       354  0x00C458E1
+       348  0x00FFD700
+       336  0x00083D8A
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 2
+   maillage 2276: UV max 0.99, non finies: 12
+   maillage 65: UV max 0.99, non finies: 12
+
+--- TYPES D'OBJETS ---
+type    2:  7263 objets ( 7263 avec maillage) profondeur max 8  ex: Advertisement, AmmoMachinegun, AmmoMagnum
+type    1:   580 objets (    0 avec maillage) profondeur max 7  ex: AK103_Empty, AK103_ReloadChamber, AK103_ReloadClipIn
+type   11:   520 objets (  520 avec maillage) profondeur max 7  ex: BloodBurst03_00+[00, Fire_01+[00, Flash+[00
+type   36:   186 objets (    0 avec maillage) profondeur max 6  ex: Omni EdgeColor, Omni01, Omni02
+type   35:   160 objets (    0 avec maillage) profondeur max 6  ex: Spot Door 01, Spot Scene_01, Spot Scene_02
+type  225:    97 objets (   97 avec maillage) profondeur max 5  ex: DressingRoom, DstObj, PathFinder_Pos
+type   18:    75 objets (   75 avec maillage) profondeur max 5  ex: Left, Right, SoundBurningoilBarrel
+type   21:    52 objets (   52 avec maillage) profondeur max 5  ex: Gate01, Gate02, Gate03
+type   44:    44 objets (   44 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type   33:    40 objets (    0 avec maillage) profondeur max 4  ex: C2-1_BurningOilBarrel_01, C2-1_Crane, C2-1_HarbourSection_01
+type   26:    33 objets (    0 avec maillage) profondeur max 5  ex: ActiveCameraList, CSList_Sounds, CS_Sounds
+type   17:    33 objets (   33 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   13:    25 objets (    0 avec maillage) profondeur max 6  ex: Direct01-SUN, Spot -AMBIENT, Spot01
+type    3:    25 objets (    0 avec maillage) profondeur max 6  ex: Cam_Give_Suitcase, Cam_Right_Arm_OverrideBackCol, Cam_Right_OverrideBackCol
+type   22:    24 objets (   24 avec maillage) profondeur max 5  ex: Ground
+type   34:    24 objets (    0 avec maillage) profondeur max 5  ex: Black Line 01, Black Line 02, Black Line 03
+type  112:    24 objets (   24 avec maillage) profondeur max 4  ex: Door_09, Door_10, Door_11
+type   51:    22 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, CloseCombatPianoWire, ClosecombatKnifePentagon
+type   28:    20 objets (   20 avec maillage) profondeur max 5  ex: InsideBound01, InsideBound_01, InsideBound_02
+type   46:    18 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 73
+    71 objets en (0.0, 0.0, 0.0)  types [2, 17, 22, 39, 111, 225]  parent: Characters / DutchGangmember02
+        ex: AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip, BulletHole_Carpet_01_nomip
+    19 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_Envelope, Items_Monitor_GPS-Reciever, Items_Monitor_GPS-Transmitter, Items_Monitor_KevlarVest, Items_Monitor_SuitcaseMoney
+    15 objets en (0.1, 0.1, -2.5)  types [2, 11]  parent: Impacts / BulletHit_Metal
+        ex: Pebble, Pebble#0, Pebble#1, Pebble#2, Pebble#3
+    14 objets en (-300.0, 0.0, -6800.0)  types [2]  parent: C2_RotterdamHarbor/C2_1_Outside.zip / C2-1_WareHouseOutside
+        ex: Ground_01, Ground_02, Ground_03, Ground_04, Ground_05
+    14 objets en (100.0, 0.0, -10400.0)  types [2]  parent: C2_RotterdamHarbor/C2_1_Outside.zip / C2-1_WareHouseOutside#0
+        ex: Ground_01, Ground_02, Ground_03, Ground_04, Ground_05
+    14 objets en (21700.0, 0.0, -11800.0)  types [2]  parent: C2_RotterdamHarbor/C2_1_Outside.zip / C2-1_WareHouseOutside#1
+        ex: Ground_01, Ground_02, Ground_03, Ground_04, Ground_05
+    14 objets en (8500.0, 0.0, -20800.0)  types [2]  parent: C2_RotterdamHarbor/C2_1_Outside.zip / C2-1_WareHouseOutside#2
+        ex: Ground_01, Ground_02, Ground_03, Ground_04, Ground_05
+     9 objets en (0.0, 0.0, 10.0)  types [17]  parent: IngameDisplay / FrameGfx1
+        ex: ContextFrame1, ContextFrame2, ContextFrame3, ContextFrame4, ContextFrame5
+     8 objets en (6500.0, -0.0, -8900.0)  types [2]  parent: C2-1_Backdrop / C2-1_UltraLOD_01
+        ex: UltraSilo_11, Wall_01, Wall_03, Wall_05, Wall_06
+     8 objets en (10099.2, -377.1, -4297.7)  types [2]  parent: C2-1_StorageArea_01 / OilTank_03
+        ex: Tower01, Tower02, Tower03, Tower04, Tower05
+
+============================================================
+
+=== DIAGNOSTIC C2_2 ===
+objets: 11331  (avec maillage: 9564)
+maillages uniques: 4248
+
+--- TEXTURES ---
+textures de base referencees: 457  -> INTROUVABLES: 0
+lightmaps referencees: 1977  -> INTROUVABLES: 1  ids [8]
+textures ENTIEREMENT transparentes (alpha=0 partout): 1  ex: ['EmergencyCabinet_01a']
+textures > 512 px: 1  ex: [('', 2, 54844)]
+
+--- FACES (instances dans la scene) ---
+texturees                                188581
+texture+lightmap                         41588
+lightmap seule                           1
+SANS texture ni lightmap (blanches)      7576
+objets avec le plus de faces blanches:
+       444  type 22  Ground
+       270  type 2  Cloth
+       270  type 2  Cloth01
+       258  type 2  Cloth02
+        60  type 2  Pathfinder_pos_02
+        60  type 2  PosBox_CartridgeEject
+        60  type 2  PosBox_MuzzleFlash
+        60  type 2  PosBox_MuzzleSmoke
+        60  type 2  PosBox_Light
+        60  type 2  PosBox_MuzzleExit
+        54  type 2  Ground01
+        51  type 2  PatrolA1
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+      3281  0x00FFFF00
+       728  0x005858E1
+       673  0x00C458E1
+       648  0x003D8606
+       544  0x00E4D699
+       336  0x00083D8A
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 5
+   maillage 2023: UV max 9.22e+05, non finies: 0
+   maillage 1979: UV max 9.22e+05, non finies: 0
+   maillage 1944: UV max 9.22e+05, non finies: 0
+   maillage 1874: UV max 9.22e+05, non finies: 0
+   maillage 89: UV max 0.99, non finies: 12
+
+--- TYPES D'OBJETS ---
+type    2:  8452 objets ( 8452 avec maillage) profondeur max 8  ex: AlertPos, AmmoMachinegun, AmmoMagnum
+type    1:   825 objets (    0 avec maillage) profondeur max 7  ex: 1stDeck, 2ndDeck, 3rdDeck
+type   11:   468 objets (  468 avec maillage) profondeur max 8  ex: Blast_Glow+[00, BloodBurst03_00+[00, Fire_01+[00
+type   35:   371 objets (    0 avec maillage) profondeur max 6  ex: MatPosSpot-lid, ShipLampSpot01, ShipLampSpot02
+type   21:   317 objets (  317 avec maillage) profondeur max 4  ex: Gate01, Gate02, Gate03
+type   36:   204 objets (    0 avec maillage) profondeur max 8  ex: MatPosOmni_Glow, Matpos_Omni01, Matpos_Omni02
+type   26:   104 objets (    0 avec maillage) profondeur max 5  ex: 1st Deck, 2nd Deck, 3rd Deck
+type   33:    89 objets (    0 avec maillage) profondeur max 4  ex: C2-1_BurningOilBarrel_01, C2-2_Boardwalk, C2-2_HarbourSection_01
+type   18:    87 objets (   87 avec maillage) profondeur max 5  ex: Left, Right, SoundBurningOilBarrel
+type   22:    74 objets (   74 avec maillage) profondeur max 5  ex: Ground
+type   44:    40 objets (   40 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type    3:    37 objets (    0 avec maillage) profondeur max 6  ex: Cam_CountDown, Cam_Right_Arm_OverrideBackCol, Cam_Right_OverrideBackCol
+type  225:    35 objets (   35 avec maillage) profondeur max 4  ex: ApproachCar, ApproachCarB, ApproachTruck
+type   17:    33 objets (   33 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   28:    28 objets (   28 avec maillage) profondeur max 4  ex: InsideBound_01, InsideBound_02, insidebound_01
+type  200:    20 objets (    0 avec maillage) profondeur max 4  ex: PatrolB2List, PatrolBList, PatrolC2List
+type   51:    20 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, BombCar, CloseCombatPianoWire
+type   46:    18 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+type  112:    12 objets (   12 avec maillage) profondeur max 6  ex: Left, Left01, Left02
+type  105:    12 objets (    0 avec maillage) profondeur max 6  ex: CloseCombatKnifePentagon, CloseCombatPianoWire, GunBeretta92
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 115
+   370 objets en (-0.0, 0.0, -0.0)  types [2, 11, 17, 21, 22, 39, 111, 225]  parent: Ship / ShipCrewRegularBAsGuard2
+        ex: AmmoMachinegun, BigRust_02, BigRust_03, BigRust_12, BigRust_13
+    29 objets en (200.0, 0.0, 0.0)  types [22]  parent: Harbour / HarbourGuard03
+        ex: Ground
+    29 objets en (200.0, 88.4, 0.0)  types [2]  parent: Harbour / HarbourGuard03
+        ex: Cloth
+    29 objets en (182.8, 94.3, 10.4)  types [2]  parent: Harbour / HarbourGuard03
+        ex: Cloth01
+    29 objets en (206.2, 71.6, -15.7)  types [2]  parent: Harbour / HarbourGuard03
+        ex: Cloth02
+    16 objets en (-60.0, 1125.0, 2185.0)  types [2]  parent: DynShatterFireGlass00_00 / Default
+        ex: FireEquipmentFragment_01, FireEquipmentFragment_02, FireEquipmentFragment_03, FireEquipmentFragment_04, FireEquipmentFragment_05
+    16 objets en (903.1, 770.0, 2175.2)  types [2]  parent: DynShatterFireGlass00_00 / Default
+        ex: FireEquipmentFragment_01, FireEquipmentFragment_02, FireEquipmentFragment_03, FireEquipmentFragment_04, FireEquipmentFragment_05
+    16 objets en (-515.0, 1850.0, 2125.0)  types [2]  parent: DynShatterFireGlass00_00 / Default
+        ex: FireEquipmentFragment_01, FireEquipmentFragment_02, FireEquipmentFragment_03, FireEquipmentFragment_04, FireEquipmentFragment_05
+    16 objets en (538.8, 1534.2, 1662.5)  types [2]  parent: DynShatterFireGlass00_00 / Default
+        ex: FireEquipmentFragment_01, FireEquipmentFragment_02, FireEquipmentFragment_03, FireEquipmentFragment_04, FireEquipmentFragment_05
+    15 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_BombCar, Items_Monitor_Envelope, Items_Monitor_KevlarVest, Weapons_Monitor_Beretta92, Weapons_Monitor_Beretta92Silenced
+
+============================================================
+
+=== DIAGNOSTIC C3_1 ===
+objets: 18977  (avec maillage: 13921)
+maillages uniques: 5066
+
+--- TEXTURES ---
+textures de base referencees: 586  -> INTROUVABLES: 0
+lightmaps referencees: 2321  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 3  ex: ['floor_water', 'C3_WindowGlass_01', 'Black']
+textures > 512 px: 1  ex: [('', 2, 58564)]
+
+--- FACES (instances dans la scene) ---
+texturees                                245118
+texture+lightmap                         23726
+lightmap seule                           69
+SANS texture ni lightmap (blanches)      6534
+objets avec le plus de faces blanches:
+       304  type 22  Ground
+       219  type 28  InsideBound_01
+       211  type 28  InsideBound_02
+       155  type 21  Gate_01
+       138  type 2  StaticCam_01_box
+        85  type 2  Pos01
+        85  type 2  Pos02
+        85  type 2  Pos03
+        85  type 2  Arrow
+        84  type 2  Ground
+        72  type 2  Ground01
+        68  type 2  Pos04
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+      3009  0x00FFFF00
+       894  0x005858E1
+       612  0x001AB194
+       525  0x00C5C500
+       392  0x00911CB1
+       307  0x00FFD700
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 9
+   maillage 4023: UV max 9.22e+05, non finies: 0
+   maillage 2175: UV max 9.22e+05, non finies: 0
+   maillage 707: UV max 9.22e+05, non finies: 0
+   maillage 706: UV max 9.22e+05, non finies: 0
+   maillage 412: UV max 9.22e+05, non finies: 0
+   maillage 411: UV max 9.22e+05, non finies: 0
+   maillage 227: UV max 9.22e+05, non finies: 0
+   maillage 198: UV max 9.22e+05, non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2: 11223 objets (11223 avec maillage) profondeur max 8  ex: Aall, Aall03, Aall_101
+type    1:  3283 objets (    0 avec maillage) profondeur max 7  ex: 1stFloor, 2ndFloor, 3rdFloor
+type   11:  1810 objets ( 1810 avec maillage) profondeur max 8  ex: BloodBurst03_00+[00, Fire_01+[00, Flash+[00
+type   35:  1120 objets (    0 avec maillage) profondeur max 7  ex: AlarmSpot_02, Fspot01, Fspot02
+type   21:   548 objets (  548 avec maillage) profondeur max 6  ex: GAte06, Gate01, Gate02
+type   33:   311 objets (    0 avec maillage) profondeur max 5  ex: C3-1_Backroom, C3-1_Bath_Type_A#00, C3-1_Bath_Type_A#01
+type   28:    86 objets (   86 avec maillage) profondeur max 4  ex: InsideBound, InsideBound_01, InsideBound_02
+type   26:    83 objets (    0 avec maillage) profondeur max 4  ex: 1st Floor, 2nd Floor, 3rd Floor
+type    3:    74 objets (    0 avec maillage) profondeur max 7  ex: Cam_End, Cam_Face, Cam_Hm_Exit
+type   18:    60 objets (   60 avec maillage) profondeur max 5  ex: BirdsOutsideFrontSouth, BirdsOutsideWest, Boiling
+type   22:    59 objets (   59 avec maillage) profondeur max 5  ex: Ground
+type   44:    53 objets (   53 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type   17:    33 objets (   33 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   51:    33 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, BombXray, BusinessCardDentist
+type  225:    22 objets (   22 avec maillage) profondeur max 4  ex: 1stFloorEastArea, 1stFloorWestArea, 2ndFloorEastArea
+type   13:    21 objets (    0 avec maillage) profondeur max 5  ex: Ambient_Light, Direct01-SUN, Spot01
+type  101:    21 objets (    0 avec maillage) profondeur max 4  ex: BombXRay, BusinessCardDentist, Envelope01
+type  102:    21 objets (    0 avec maillage) profondeur max 6  ex: Binoculars, BombXray, BusinessCardDentist
+type   46:    18 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+type  105:    15 objets (    0 avec maillage) profondeur max 6  ex: CloseCombatKnifeKitchen, CloseCombatKnifeMeatCleaver, CloseCombatKnifeOyabun
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 47
+   132 objets en (0.0, 0.0, 0.0)  types [2, 11, 17, 22, 39, 111, 225]  parent: PROT / PathFinder
+        ex: AmmoMachinegun, BathingSuit, BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+    28 objets en (-2849.5, 233.0, 2827.0)  types [2]  parent: DynShatterMirror02_00 / Default
+        ex: MirrorFragment_01, MirrorFragment_02, MirrorFragment_03, MirrorFragment_04, MirrorFragment_05
+    28 objets en (-2299.5, 233.0, 2827.0)  types [2]  parent: DynShatterMirror02_00 / Default
+        ex: MirrorFragment_01, MirrorFragment_02, MirrorFragment_03, MirrorFragment_04, MirrorFragment_05
+    28 objets en (-3900.0, 753.7, 2791.1)  types [2]  parent: DynShatterMirror02_00 / Default
+        ex: MirrorFragment_01, MirrorFragment_02, MirrorFragment_03, MirrorFragment_04, MirrorFragment_05
+    27 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_BusinessCardDentist, Items_Monitor_Envelope, Items_Monitor_FlowerBox, Items_Monitor_KevlarVest, Items_Monitor_KeyHotelFuchs
+    20 objets en (12.7, 1.8, -0.4)  types [2]  parent: Items / Envelope04_C3_1
+        ex: Binoculars, BombXrayBottom, BombXrayCanister, BombXrayHatch, BusinessCardDentist
+    19 objets en (-1299.8, 743.1, 4200.0)  types [2]  parent: DynShatter00_06 / Default
+        ex: Default_Glass08, Parts_103, Parts_104, Parts_105, Parts_106
+    19 objets en (-1299.8, 622.1, 4200.0)  types [2]  parent: DynShatter00_05 / Default
+        ex: Default_Glass07, Parts_100, Parts_101, Parts_102, Parts_86
+    19 objets en (-2049.8, 622.1, 4200.0)  types [2]  parent: DynShatter00_04 / Default
+        ex: Default_Glass05, Parts_52, Parts_53, Parts_54, Parts_55
+    19 objets en (-2049.8, 743.1, 4200.0)  types [2]  parent: DynShatter00_02 / Default
+        ex: Default_Glass04, Parts_35, Parts_36, Parts_37, Parts_38
+
+============================================================
+
+=== DIAGNOSTIC C4_1 ===
+objets: 66100  (avec maillage: 48632)
+maillages uniques: 2318
+
+--- TEXTURES ---
+textures de base referencees: 187  -> INTROUVABLES: 0
+lightmaps referencees: 1024  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 0
+textures > 512 px: 1  ex: [('', 2, 23226)]
+
+--- FACES (instances dans la scene) ---
+texturees                                311706
+texture+lightmap                         234277
+lightmap seule                           8775
+SANS texture ni lightmap (blanches)      86431
+objets avec le plus de faces blanches:
+      3726  type 2  PathFinder_Pos_31
+      2856  type 2  PathFinder_Pos_41
+      2790  type 2  PathFinder_Pos_22
+      2538  type 2  PathFinder_Pos_14
+      2484  type 2  PathFinder_Pos_39
+      2250  type 2  BigTree88a_00
+      2213  type 2  PlantBoxA02
+      2100  type 2  PlantBoxB_01
+      1974  type 2  PathFinder_Pos_36
+      1908  type 2  PathFinder_Pos_12
+      1902  type 2  PathFinder_Pos_29
+      1878  type 2  PathFinder_Pos_47
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+     41917  0x001AB194
+     11226  0x00C5C500
+      7956  0x0094B11A
+      6953  0x007D6953
+      5632  0x00866E08
+      3366  0x00FFFF00
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2: 48279 objets (48279 avec maillage) profondeur max 8  ex: 8x8_Hi, 8x8_Hi01, 8x8_Hi02
+type    1: 17226 objets (    0 avec maillage) profondeur max 7  ex: 16x16_LODa00_00, 16x16_LODa00_01, 16x16_LODa00_02
+type   18:    99 objets (   99 avec maillage) profondeur max 5  ex: Flames, Left, Right
+type   22:    87 objets (   87 avec maillage) profondeur max 6  ex: Ground
+type  109:    49 objets (    0 avec maillage) profondeur max 4  ex: Pickup Ammo 5.56, Pickup Ammo 5.56#0, Pickup Ammo 5.56#1
+type   11:    42 objets (   42 avec maillage) profondeur max 7  ex: BloodBurst03_00+[00, Fire_Large+[00, Flash+[00
+type   44:    40 objets (   40 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type  225:    37 objets (   37 avec maillage) profondeur max 4  ex: AcousticsBox, Box1, Box2
+type   26:    36 objets (    0 avec maillage) profondeur max 4  ex: ActiveCameraList, CameraControlList, CutSequence01
+type   17:    35 objets (   35 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type    3:    25 objets (    0 avec maillage) profondeur max 6  ex: Cam_Chopper_End, Cam_Chopper_Start, Cam_Right_Arm_OverrideBackCol
+type   46:    18 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+type   51:    18 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, CloseCombatPianoWire, ClosecombatKnifePentagon
+type   13:    17 objets (    0 avec maillage) profondeur max 7  ex: Ambient_Spot, Spot01, Spot01 -AMBIENT
+type  105:    12 objets (    0 avec maillage) profondeur max 6  ex: CloseCombatKnifePentagon, CloseCombatPianoWire, GunBeretta92
+type   34:    10 objets (    0 avec maillage) profondeur max 5  ex: Black Line 01, Black Line 02, Black Line 03
+type   36:    10 objets (    0 avec maillage) profondeur max 5  ex: Omni01, Omni01-Fire, Omni02
+type  106:    10 objets (    0 avec maillage) profondeur max 7  ex: AmmoBlowDart, AmmoKnife, AmmoMachinegun
+type   35:     9 objets (    0 avec maillage) profondeur max 7  ex: Spot01, Spot02, Spot03
+type  101:     7 objets (    0 avec maillage) profondeur max 4  ex: Idol, Pickup M16A2#0, Pickup M60
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 59
+    56 objets en (0.0, 0.0, 0.0)  types [2, 17, 225]  parent: PROT / CutScenes/HitmanDying.zip
+        ex: AcousticsBox, AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+    15 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_FigureHoly, Items_Monitor_KevlarVest, Weapons_Monitor_Beretta92, Weapons_Monitor_BlowGun, Weapons_Monitor_DesertEagle
+    15 objets en (0.1, 0.1, -2.5)  types [2, 11]  parent: Impacts / BulletHit_Metal
+        ex: Pebble, Pebble#0, Pebble#1, Pebble#2, Pebble#3
+     9 objets en (0.0, 0.0, 10.0)  types [17]  parent: IngameDisplay / FrameGfx1
+        ex: ContextFrame1, ContextFrame2, ContextFrame3, ContextFrame4, ContextFrame5
+     6 objets en (14261.2, 128.3, 3232.7)  types [2]  parent: C4_ColombianRainForest/C4_1_CrashSite.zip / C4-1_CrashSite
+        ex: Body_InsideL, Body_InsideR, Floor, Fokker_Body, Gavl_Agter
+     5 objets en (-16316.7, 27.2, 17704.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+     5 objets en (-17916.7, -72.8, 11304.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+     5 objets en (-17916.7, 27.2, 14504.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+     5 objets en (-33916.7, -172.8, 4904.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+     5 objets en (-11516.7, -72.8, 19304.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+
+============================================================
+
+=== DIAGNOSTIC C4_2 ===
+objets: 25189  (avec maillage: 18853)
+maillages uniques: 2059
+
+--- TEXTURES ---
+textures de base referencees: 202  -> INTROUVABLES: 0
+lightmaps referencees: 1025  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 0
+textures > 512 px: 1  ex: [('', 2, 21510)]
+
+--- FACES (instances dans la scene) ---
+texturees                                133100
+texture+lightmap                         86600
+lightmap seule                           3802
+SANS texture ni lightmap (blanches)      36160
+objets avec le plus de faces blanches:
+      1914  type 2  PlantBoxB_00
+      1614  type 2  PathFinder_Pos_22
+      1482  type 2  PathFinder_Pos_47
+      1470  type 2  PathFinder_Pos_49
+      1458  type 2  PathFinder_Pos_50
+      1350  type 2  PathFinder_Pos_02
+      1326  type 2  PathFinder_Pos_04
+      1308  type 2  PlantBoxA01
+      1308  type 2  PathFinder_Pos_01
+      1302  type 2  PlantBoxB_01
+      1284  type 2  PathFinder_Pos_03
+      1197  type 2  PlantBoxA02
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+     19117  0x001AB194
+      6110  0x00C5C500
+      4326  0x0094B11A
+      1594  0x007D6953
+      1180  0x00866E08
+      1037  0x00FFFF00
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2: 18618 objets (18618 avec maillage) profondeur max 8  ex: 8x8_Hi, 8x8_Hi01, 8x8_Hi02
+type    1:  6166 objets (    0 avec maillage) profondeur max 7  ex: 16x16_LODa00_00, 16x16_LODa00_01, 16x16_LODa00_02
+type   18:    45 objets (   45 avec maillage) profondeur max 5  ex: Flames, Left, Right
+type   11:    42 objets (   42 avec maillage) profondeur max 7  ex: BloodBurst03_00+[00, Fire_Large+[00, Flash+[00
+type   44:    41 objets (   41 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type   17:    35 objets (   35 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type  225:    31 objets (   31 avec maillage) profondeur max 4  ex: AcousticsBox, Box_HMEnterSacrificeGround, Box_HMLeavesBridge
+type   22:    27 objets (   27 avec maillage) profondeur max 5  ex: Ground
+type   26:    24 objets (    0 avec maillage) profondeur max 4  ex: ActiveCameraList, CameraControlList, CutSeqControl
+type    3:    20 objets (    0 avec maillage) profondeur max 7  ex: Cam_Panther_OverrideBackCol, Cam_Right_Arm_OverrideBackCol, Cam_Right_OverrideBackCol
+type   51:    19 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, CloseCombatPianoWire, ClosecombatKnifePentagon
+type   46:    18 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+type  105:    12 objets (    0 avec maillage) profondeur max 6  ex: CloseCombatKnifePentagon, CloseCombatPianoWire, GunBeretta92
+type   13:    10 objets (    0 avec maillage) profondeur max 5  ex: Spot01, Spot01 -AMBIENT, Spot01_BrightSunlight_AMBIENT
+type  106:    10 objets (    0 avec maillage) profondeur max 7  ex: AmmoBlowDart, AmmoKnife, AmmoMachinegun
+type   36:     9 objets (    0 avec maillage) profondeur max 5  ex: Omni01-Fire, Omni02, Omni03
+type   34:     8 objets (    0 avec maillage) profondeur max 5  ex: Black Line 01, Black Line 02, Black Line 03
+type   35:     8 objets (    0 avec maillage) profondeur max 6  ex: Spot01, Spot02, Spot03
+type  109:     8 objets (    0 avec maillage) profondeur max 3  ex: Pickup Ammo 5.56, Pickup Ammo 5.56#0, Pickup Ammo 5.56#1
+type  200:     5 objets (    0 avec maillage) profondeur max 3  ex: ConditionControl, List_JaguarRefs, List_SquareGuard2
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 12
+    53 objets en (0.0, 0.0, 0.0)  types [2, 17, 39, 111, 225]  parent: PROT / CutScenes/HitmanDying.zip
+        ex: AcousticsBox, AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+    16 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_DeadPig, Items_Monitor_KevlarVest, Items_Monitor_SuitcaseSniper, Weapons_Monitor_Beretta92, Weapons_Monitor_BlowGun
+    15 objets en (0.1, 0.1, -2.5)  types [2, 11]  parent: Impacts / BulletHit_Metal
+        ex: Pebble, Pebble#0, Pebble#1, Pebble#2, Pebble#3
+     9 objets en (0.0, 0.0, 10.0)  types [17]  parent: IngameDisplay / FrameGfx1
+        ex: ContextFrame1, ContextFrame2, ContextFrame3, ContextFrame4, ContextFrame5
+     6 objets en (14261.2, 128.3, 3232.7)  types [2]  parent: C4_ColombianRainForest/C4_1_CrashSite.zip / C4-1_CrashSite
+        ex: Body_InsideL, Body_InsideR, Floor, Fokker_Body, Gavl_Agter
+     5 objets en (17283.3, -172.8, 8104.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+     5 objets en (14083.3, -172.8, 8104.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+     5 objets en (10883.3, -172.8, 8104.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+     5 objets en (25283.3, -172.8, 4904.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+     5 objets en (43683.3, -172.8, 28104.3)  types [2]  parent: Jungle02_LODa00_00 / Jungle02_LODb00_00
+        ex: SmallTree_05, SmallTree_06, SmallTree_07, SmallTree_08, SmallTree_10
+
+============================================================
+
+=== DIAGNOSTIC C4_3 ===
+objets: 39771  (avec maillage: 29868)
+maillages uniques: 4145
+
+--- TEXTURES ---
+textures de base referencees: 279  -> INTROUVABLES: 0
+lightmaps referencees: 1782  -> INTROUVABLES: 1  ids [607]
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 1  ex: ['']
+textures > 512 px: 1  ex: [('', 2, 42326)]
+
+--- FACES (instances dans la scene) ---
+texturees                                240172
+texture+lightmap                         128540
+lightmap seule                           4883
+SANS texture ni lightmap (blanches)      50018
+objets avec le plus de faces blanches:
+      2310  type 2  PathFinder_Pos_47
+      2184  type 2  PathFinder_Pos_49
+      2154  type 2  PathFinder_Pos_22
+      1872  type 2  PathFinder_Pos_50
+      1434  type 2  PathFinder_Pos_31
+      1158  type 2  PathFinder_Pos_14
+      1140  type 2  PathFinder_Pos_39
+      1111  type 2  PlantBoxA02
+      1110  type 2  PlantBoxB_00
+      1065  type 2  PlantBoxA01
+      1032  type 2  PathFinder_Pos_41
+      1002  type 2  BigTree88a_00
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+     25748  0x001AB194
+      6739  0x00C5C500
+      4152  0x0094B11A
+      3392  0x007D6953
+      2700  0x00866E08
+      2176  0x00FFFF00
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2: 29229 objets (29229 avec maillage) profondeur max 10  ex: 8x8_Hi, 8x8_Hi01, 8x8_Hi02
+type    1:  9467 objets (    0 avec maillage) profondeur max 9  ex: 16x4_LODa00_00, 16x4_LODa00_01, 16x4_LODa00_02
+type   21:   152 objets (  152 avec maillage) profondeur max 5  ex: Gate01, Gate011, Gate02
+type  225:   118 objets (  118 avec maillage) profondeur max 5  ex: BombPos, Box, Dst
+type   22:    98 objets (   98 avec maillage) profondeur max 6  ex: Ground
+type   11:    83 objets (   83 avec maillage) profondeur max 7  ex: BloodBurst03_00+[00, ChandelierGlow_01, ChandelierGlow_02
+type   18:    70 objets (   70 avec maillage) profondeur max 5  ex: FountainTurnedOff, GasFlame, GasFlame#0
+type   35:    65 objets (    0 avec maillage) profondeur max 6  ex: Direct01 -SUN, Spot01, Spot02
+type   36:    53 objets (    0 avec maillage) profondeur max 6  ex: Omni02, Omni03, Omni04
+type   44:    44 objets (   44 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type   26:    40 objets (    0 avec maillage) profondeur max 6  ex: ActiveCameraList, Bunker, CameraControlList
+type  109:    38 objets (    0 avec maillage) profondeur max 4  ex: Pickup Ammo 7.62, Pickup Ammo 7.62#0, Pickup Ammo 7.62#1
+type   33:    36 objets (    0 avec maillage) profondeur max 5  ex: C4-3_CampBarackInside_01, C4-3_CampBarackInside_01a, C4-3_CampBarackInside_01a#0
+type   17:    35 objets (   35 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   34:    29 objets (    0 avec maillage) profondeur max 5  ex: Black Line 01, Black Line 02, Black Line 03
+type   28:    27 objets (   27 avec maillage) profondeur max 5  ex: InsideBound_01, InsideBound_02, InsideBound_03
+type  201:    23 objets (    0 avec maillage) profondeur max 5  ex: Arbiter, RiverArbiter
+type   13:    23 objets (    0 avec maillage) profondeur max 5  ex: Spot01, Spot01 -AMBIENT, Spot01_BrightSunlight_AMBIENT
+type   51:    23 objets (    0 avec maillage) profondeur max 7  ex: Binoculars, BombRemote, BombRemoteControl
+type    3:    20 objets (    0 avec maillage) profondeur max 6  ex: Cam_Right_Arm_OverrideBackCol, Cam_Right_OverrideBackCol, Cam_Top_OverrideBackCol
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 78
+    65 objets en (0.0, 0.0, 0.0)  types [2, 11, 17, 22, 39, 225]  parent: PROT / CutScenes/HitmanDying.zip
+        ex: AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, Box, BulletHole_Asphalt_01_nomip
+    37 objets en (44025.8, 11.7, -17628.3)  types [2, 22]  parent: Team4 / ColumbianOfficer_01
+        ex: Ground, PathPoint0000
+    18 objets en (49297.5, 909.8, -22600.0)  types [2]  parent: DynShatterWindow12_00 / Default13
+        ex: GlassFragment_196, GlassFragment_197, GlassFragment_198, GlassFragment_199, GlassFragment_200
+    18 objets en (48400.0, 551.2, -22512.5)  types [2]  parent: C4-3_MansionOutside / C4-3_MansionOutside_2
+        ex: GlassFragment_31, GlassFragment_32, GlassFragment_33, GlassFragment_34, GlassFragment_35
+    18 objets en (48600.0, 522.7, -22512.5)  types [2]  parent: C4-3_MansionOutside / C4-3_MansionOutside_2
+        ex: GlassFragment_46, GlassFragment_47, GlassFragment_48, GlassFragment_49, GlassFragment_50
+    18 objets en (49600.0, 209.6, -22702.5)  types [2]  parent: C4-3_MansionOutside / C4-3_MansionOutside_2
+        ex: GlassFragment_106, GlassFragment_107, GlassFragment_108, GlassFragment_109, GlassFragment_110
+    18 objets en (49600.0, 911.0, -22702.5)  types [2]  parent: C4-3_MansionOutside / C4-3_MansionOutside_2
+        ex: GlassFragment_166, GlassFragment_167, GlassFragment_168, GlassFragment_169, GlassFragment_170
+    18 objets en (48697.5, 516.7, -20950.0)  types [2]  parent: C4-3_MansionOutside / C4-3_MansionOutside_4a
+        ex: GlassFragment_106, GlassFragment_107, GlassFragment_108, GlassFragment_109, GlassFragment_110
+    18 objets en (48210.0, 510.8, -21497.5)  types [2]  parent: C4-3_MansionOutside / C4-3_MansionOutside_4a
+        ex: GlassFragment_196, GlassFragment_197, GlassFragment_198, GlassFragment_199, GlassFragment_200
+    18 objets en (48287.5, 187.5, -22350.0)  types [2]  parent: C4-3_MansionOutside / C4-3_MansionOutside_4b
+        ex: GlassFragment_31, GlassFragment_32, GlassFragment_33, GlassFragment_34, GlassFragment_35
+
+============================================================
+
+=== DIAGNOSTIC C5_1 ===
+objets: 9659  (avec maillage: 7490)
+maillages uniques: 3811
+
+--- TEXTURES ---
+textures de base referencees: 417  -> INTROUVABLES: 0
+lightmaps referencees: 1990  -> INTROUVABLES: 1  ids [19]
+textures ENTIEREMENT transparentes (alpha=0 partout): 3  ex: ['PC-Fence02', '', 'floor_water']
+textures > 512 px: 1  ex: [('', 2, 55740)]
+
+--- FACES (instances dans la scene) ---
+texturees                                110812
+texture+lightmap                         16738
+lightmap seule                           123
+SANS texture ni lightmap (blanches)      28058
+objets avec le plus de faces blanches:
+       238  type 28  InsideBound_01
+       208  type 22  Ground
+       204  type 2  Arrow
+       204  type 2  Arrow#0
+       187  type 2  Arrow#1
+       170  type 2  Arrow#2
+       153  type 2  Attack
+       153  type 2  Attack#4
+       153  type 2  Attack#0
+       153  type 2  Attack#2
+       153  type 2  Arrow#3
+       153  type 2  Arrow#4
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+     26163  0x00FFFF00
+       402  0x00C5C500
+       390  0x005858E1
+       288  0x00FFD700
+       157  0x00530023
+       151  0x00C6E057
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 6
+   maillage 3442: UV max 9.22e+05, non finies: 0
+   maillage 2059: UV max 9.22e+05, non finies: 0
+   maillage 1050: UV max 9.22e+05, non finies: 0
+   maillage 894: UV max 9.22e+05, non finies: 0
+   maillage 893: UV max 9.22e+05, non finies: 0
+   maillage 1039: UV max 5.07e+04, non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2:  6269 objets ( 6269 avec maillage) profondeur max 9  ex: 210, 211NUStair_Attack, 211NUStair_Attack#0
+type    1:  1256 objets (    0 avec maillage) profondeur max 8  ex: 1stFloor, 1stNorth, 1stWest
+type   11:   548 objets (  548 avec maillage) profondeur max 8  ex: BloodBurst03_00+[00, Flash+[00, Glow
+type   35:   485 objets (    0 avec maillage) profondeur max 6  ex: Fspot01, RealTimeSpot09, Spot
+type   21:   332 objets (  332 avec maillage) profondeur max 4  ex: Gate01, Gate0101, Gate02
+type   28:   130 objets (  130 avec maillage) profondeur max 4  ex: InsideBound_01, InsideBound_02, InsideBound_03
+type   33:   122 objets (    0 avec maillage) profondeur max 3  ex: C5-1_ IntensiveWard_01, C5-1_ IntensiveWard_01#0, C5-1_Cell01
+type   26:    48 objets (    0 avec maillage) profondeur max 4  ex: 1st Floor, 2nd Floor, 3rd Floor
+type   44:    43 objets (   43 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type  225:    41 objets (   41 avec maillage) profondeur max 5  ex: DstObj, OfficePos, PathFinder_Pos
+type   22:    41 objets (   41 avec maillage) profondeur max 7  ex: Ground
+type  101:    35 objets (    0 avec maillage) profondeur max 5  ex: AntiDote, ChildrensBook, ChildrensBook#0
+type   36:    35 objets (    0 avec maillage) profondeur max 8  ex: FlikkerLight, Omni01, Omni02
+type  109:    33 objets (    0 avec maillage) profondeur max 5  ex: Franchi_Ammo, Franchi_Ammo#0, Franchi_Ammo#1
+type   17:    33 objets (   33 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type    3:    25 objets (    0 avec maillage) profondeur max 6  ex: Cam, Cam_Antidope, Cam_C5-1_GcallProf
+type  200:    23 objets (    0 avec maillage) profondeur max 5  ex: BathRoom_MadRunList, Cor112List, EastCellList
+type   51:    22 objets (    0 avec maillage) profondeur max 7  ex: AntiDope, Binoculars, ChildrensBook
+type   18:    21 objets (   21 avec maillage) profondeur max 5  ex: Left, Right, SoundBoilingCue#0
+type   13:    19 objets (    0 avec maillage) profondeur max 5  ex: Spot01, Spot01 -AMBIENT, Spot01 ENVIRONMENT
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 18
+   103 objets en (0.0, 0.0, 0.0)  types [2, 17, 21, 22, 39, 111, 225]  parent: C5_Sanitarium/C5_1_Outside.zip / C5-1_Court_01
+        ex: AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, Box, Box01
+    22 objets en (0.0, 0.0, 1000.0)  types [2]  parent: C5_Sanitarium/C5_1_Main.zip / C5-1_Hall100
+        ex: Pilar_01, Pilar_02, Pilar_03, Pilar_04, Pilar_05
+    18 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_AntiDope, Items_Monitor_Envelope, Items_Monitor_KevlarVest, Items_Monitor_KeyHosiptal, Items_Monitor_KeyToilet
+    15 objets en (0.1, 0.1, -2.5)  types [2, 11]  parent: Impacts / BulletHit_Metal
+        ex: Pebble, Pebble#0, Pebble#1, Pebble#2, Pebble#3
+    12 objets en (-782.0, 585.3, -1522.3)  types [2]  parent: DynShatterLabFlask00_03 / Default
+        ex: LabFlask01, LabFlaskFragment_11, LabFlaskFragment_12, LabFlaskFragment_13, LabFlaskFragment_14
+    12 objets en (-640.2, 565.3, -1530.3)  types [2]  parent: DynShatterLabFlask00_00 / Default
+        ex: LabFlask, LabFlaskFragment_01, LabFlaskFragment_02, LabFlaskFragment_03, LabFlaskFragment_04
+    11 objets en (-701.7, 574.3, -1501.4)  types [2]  parent: DynShatterLabFlask00_09 / Default
+        ex: LabFlask03, LabFlaskFragment_32, LabFlaskFragment_33, LabFlaskFragment_34, LabFlaskFragment_35
+    11 objets en (-730.4, 574.3, -1517.9)  types [2]  parent: DynShatterLabFlask00_05 / Default
+        ex: LabFlask02, LabFlaskFragment_22, LabFlaskFragment_23, LabFlaskFragment_24, LabFlaskFragment_25
+    11 objets en (0.0, 500.0, 1000.0)  types [2]  parent: C5_Sanitarium/C5_1_Main.zip / C5-1_OperatingTheatre
+        ex: Column_02, Column_04, Column_06, Column_08, Floor_01
+     9 objets en (0.0, 1100.0, 1000.0)  types [2]  parent: C5_Sanitarium/C5_1_Main.zip / C5-1_OperatingTheatre
+        ex: Ceiling_05, Ceiling_06, Ceiling_07, Ceiling_08, Roof_01
+
+============================================================
+
+=== DIAGNOSTIC C5_2 ===
+objets: 4715  (avec maillage: 3738)
+maillages uniques: 2593
+
+--- TEXTURES ---
+textures de base referencees: 278  -> INTROUVABLES: 0
+lightmaps referencees: 1284  -> INTROUVABLES: 0
+textures de base qui n'existent que dans les lightmaps: 1
+textures ENTIEREMENT transparentes (alpha=0 partout): 0
+textures > 512 px: 1  ex: [('', 2, 26202)]
+
+--- FACES (instances dans la scene) ---
+texturees                                57659
+texture+lightmap                         7914
+lightmap seule                           60
+SANS texture ni lightmap (blanches)      8743
+objets avec le plus de faces blanches:
+       169  type 2  Logo
+        98  type 22  Ground
+        78  type 2  PosBox_CartridgeEject
+        78  type 2  PosBox_MuzzleFlash
+        78  type 2  PosBox_MuzzleSmoke
+        78  type 2  PosBox_Light
+        78  type 2  PosBox_MuzzleExit
+        72  type 2  ClothBox_01
+        41  type 2  StaticCam_01_Box
+        36  type 28  InsideBound_01
+        34  type 2  Attack
+        34  type 2  Attack#0
+valeurs du champ 'couleur' de ces objets (si variees = vraie couleur):
+      7344  0x00FFFF00
+       420  0x00FFD700
+       247  0x005858E1
+       169  0x0094B11A
+       142  0x001AB194
+       108  0x00C5C500
+
+--- MAILLAGES SUSPECTS ---
+maillages dont la boite est gonflee par des sommets inutilises (x4 ou plus): 0
+maillages avec UV absurdes ou non finies: 2
+   maillage 1679: UV max 9.22e+05, non finies: 0
+   maillage 1090: UV max 9.22e+05, non finies: 0
+
+--- TYPES D'OBJETS ---
+type    2:  3287 objets ( 3287 avec maillage) profondeur max 8  ex: ActivateBox A, ActivateBox B, ActivateBox C
+type    1:   395 objets (    0 avec maillage) profondeur max 7  ex: AK103_Empty, AK103_ReloadChamber, AK103_ReloadClipIn
+type   11:   139 objets (  139 avec maillage) profondeur max 8  ex: BloodBurst03_00+[00, Flash+[00, Glow+[00
+type   35:   133 objets (    0 avec maillage) profondeur max 6  ex: Fspot01, Spot01, Spot02
+type   21:   112 objets (  112 avec maillage) profondeur max 4  ex: Gate01, Gate02, Gate03
+type   26:    75 objets (    0 avec maillage) profondeur max 5  ex: ActiveCameraList, AdditionalDoorList, CameraControlList
+type   36:    67 objets (    0 avec maillage) profondeur max 8  ex: ChamberLight_03, ChamberLight_04, ChamberLight_05
+type    3:    63 objets (    0 avec maillage) profondeur max 6  ex: Cam02(88-121)_OverrideBackCol, Cam_Right_Arm_OverrideBackCol, Cam_Right_OverrideBackCol
+type   33:    50 objets (    0 avec maillage) profondeur max 5  ex: C5-1_ElevatorShaft_02, C5-2_CloneLab, C5-2_CloseCombatCourse
+type   44:    46 objets (   46 avec maillage) profondeur max 8  ex: ActionFrame, ArmorBar_Empty_01, ArmorBar_Full_01
+type  109:    45 objets (    0 avec maillage) profondeur max 4  ex: AmmoSMG, AmmoSMG#0, AmmoSMG#1
+type   18:    40 objets (   40 avec maillage) profondeur max 5  ex: AirVent, AirVent#0, AirVent#1
+type   17:    35 objets (   35 avec maillage) profondeur max 6  ex: BloodStain_01_nomip, BloodStain_06_nomip, BulletHole_Asphalt_01_nomip
+type   51:    27 objets (    0 avec maillage) profondeur max 7  ex: AntiDope, Binoculars, ChildrensBook
+type   13:    21 objets (    0 avec maillage) profondeur max 5  ex: Direct01-SUN, Spot01, Spot01 -AMBIENT
+type   28:    20 objets (   20 avec maillage) profondeur max 4  ex: InsideBound_01, InsideBound_02, InsideBound_03
+type  225:    20 objets (   20 avec maillage) profondeur max 4  ex: CloneActivateBox, CloneScanBox, CloneShowDown
+type  101:    18 objets (    0 avec maillage) profondeur max 4  ex: HKMP5, KevlarVest, MiniGun
+type   22:    17 objets (   17 avec maillage) profondeur max 6  ex: Ground
+type   46:    17 objets (    0 avec maillage) profondeur max 7  ex: ActionGroup, ActiveGroup, AmmoDisplay
+
+--- PIECES EMPILEES AU MEME POINT (personnages 'en boule' ?) ---
+points ou >= 5 objets a maillage sont superposes: 33
+    51 objets en (0.0, 0.0, 0.0)  types [2, 11, 17, 18, 22, 225]  parent: PROT / CutScenes/HitmanDying.zip
+        ex: AmmoMachinegun, BloodStain_01_nomip, BloodStain_06_nomip, Box, BulletHole_Asphalt_01_nomip
+    33 objets en (-400.8, -405.0, 6743.8)  types [2]  parent: C5_Sanitarium/C5_2-Laboratory.zip / C5-2_Lab-101#1
+        ex: CloneChamberTop_03, CloneChamber_01, Fragment_01, Fragment_02, Fragment_03
+    33 objets en (-1416.2, -405.0, 5000.9)  types [2]  parent: C5_Sanitarium/C5_2-Laboratory.zip / C5-2_Lab-101#0
+        ex: CloneChamberTop_03, CloneChamber_01, Fragment_01, Fragment_02, Fragment_03
+    33 objets en (-1416.2, -405.0, 3600.9)  types [2]  parent: C5_Sanitarium/C5_2-Basement.zip / C5-2_Lab-101
+        ex: CloneChamberTop_03, CloneChamber_01, Fragment_01, Fragment_02, Fragment_03
+    29 objets en (-853.4, -300.3, 6732.9)  types [2]  parent: DynShatterChamber01_00 / Remains01
+        ex: Fragment_31, Fragment_32, Fragment_33, Fragment_34, Fragment_35
+    29 objets en (-1427.1, -300.3, 5453.5)  types [2]  parent: DynShatterChamber01_00 / Remains01
+        ex: Fragment_31, Fragment_32, Fragment_33, Fragment_34, Fragment_35
+    29 objets en (-1427.1, -300.3, 4053.5)  types [2]  parent: DynShatterChamber01_00 / Remains01
+        ex: Fragment_31, Fragment_32, Fragment_33, Fragment_34, Fragment_35
+    23 objets en (460.0, 28.0, 34.0)  types [44]  parent: NEWWeaponDisplay / MonitorPics
+        ex: Items_Monitor_AntiDope, Items_Monitor_KevlarVest, Items_Monitor_KeyHosiptal, Items_Monitor_KeyToilet, Items_Monitor_PoisonInjection
+    18 objets en (-3847.0, -1158.7, 239.0)  types [2]  parent: DynShatter00_03 / Default
+        ex: Defaulten02, Piece_33, Piece_34, Piece_35, Piece_36
+    18 objets en (-3842.0, -1126.0, 239.0)  types [2]  parent: DynShatter00_02 / Default
+        ex: Defaulten01, Piece_17, Piece_18, Piece_19, Piece_20
+
+============================================================

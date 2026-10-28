@@ -1,0 +1,198 @@
+
+Port de Hitman: Codename 47 sur New 3DS
+24 oct. 2026 · @dodo16350
+Le projet se fait en dix phases (0 à 9) : lire les fichiers du jeu avec les outils de la communauté, les convertir sur PC pour le GPU de la 3DS, puis écrire un moteur 3D natif qui les charge depuis la carte SD.
+Principe et limites
+Le produit final est une application .3dsx qui contient ton moteur, mais aucun fichier du jeu : l'utilisateur fournit sa propre copie (ici ta version GOG), et c'est elle qui est lue pour lancer le jeu.
+• Tu ne pars pas de zéro. Deux projets open source lisent déjà les fichiers de Codename 47 : c47edit (éditeur de scènes, C++, licence GPL-3.0) et 47tools (licence MIT). Leur code est la documentation des formats.
+• Il faut réécrire le moteur. Le moteur d'origine (Glacier) n'est pas disponible : on réécrit le rendu, les collisions, l'IA et les scripts pour la 3DS, en lisant les mêmes données que le jeu.
+• Licence. Si tu recopies du code de c47edit, ton projet doit être publié sous GPL-3.0 avec ses sources. Reprendre seulement la connaissance des formats et réécrire le code t'évite cette contrainte. Ce n'est pas un avis juridique.
+• Ordre de grandeur. Voir un niveau en caméra libre prend quelques jours à quelques semaines. Une mission réellement jouable (gardes, scripts, objectifs) prend des mois : c'est la phase 6, de loin la plus dure. Le plan est fait pour que chaque phase donne un résultat visible.
+Phase 0 — Préparer les outils
+Objectif : un PC qui sait compiler pour la 3DS, et un jeu GOG qui s'ouvre dans l'éditeur de la communauté.
+1. Copier le jeu. Fais une copie du dossier d'installation GOG dans un dossier de travail (par exemple hitman47_data). Tu ne modifies jamais l'original.
+2. Installer devkitPro (devkitARM, libctru, citro3d, outils picasso et tex3ds) avec son gestionnaire de paquets dkp-pacman, groupe 3ds-dev. Ajoute 3ds-zlib pour lire les ZIP.
+3. Compiler un exemple. Prends un exemple citro3d des 3ds-examples (un cube texturé), fais make, et vérifie que tu obtiens un .3dsx.
+4. Choisir comment tester. Un émulateur 3DS récent (Azahar, successeur de Citra : vérifie qu'il est toujours maintenu) pour itérer vite, et ta New 3DS avec Homebrew Launcher pour les mesures de vitesse et de mémoire. L'émulateur ne remplace jamais le test sur la console.
+5. Installer c47edit (version compilée dans les releases du dépôt) et suivre son guide de démarrage : copier Repeat.ANM, Repeat.DXT, Repeat.PAL, Repeat.WAV à côté de l'exécutable, puis ouvrir un ZIP de scène comme C1_HongKong\C1_1.zip.
+6. Pour lire leur code. Installe Git, Python 3 et, pour compiler c47edit si tu veux le modifier, Visual Studio avec vcpkg (il ne fonctionne que sous Windows).
+Critère de fin : un cube texturé tourne sur ta 3DS, et une mission s'affiche dans c47edit.
+Phase 1 — Lire les fichiers du jeu
+Objectif : un document FORMATS.md qui décrit chaque format du jeu avec assez de précision pour écrire ton propre lecteur.
+1. Inventorier. Avec un petit script Python (zipfile), liste le contenu de chaque ZIP de scène : noms, extensions, tailles. Garde le résultat dans un fichier texte.
+2. Cloner les deux dépôts AdrienTD/c47edit et AdrienTD/47tools, et lire leurs sources dans cet ordre. D'après les noms de fichiers du dépôt (à confirmer en les ouvrant) :
+    ◦ chunk.cpp : la structure en blocs des fichiers de scène ;
+    ◦ gameobj.cpp, classInfo.cpp, classes.json : les objets de la scène et leurs types ;
+    ◦ ObjModel.cpp, ModelImporter.cpp : les modèles 3D ;
+    ◦ texture.cpp : les textures (le projet utilise libsquish pour le format DXT) et les palettes ;
+    ◦ PathfinderInfo.cpp : les données de navigation ;
+    ◦ ScriptParser.cpp : les scripts ;
+    ◦ AudioManager.cpp et le dossier spkview de 47tools : le son et les autres conteneurs.
+3. Rédiger FORMATS.md. Pour chaque format : en-tête, tables d'offsets, types, taille des champs, un exemple en hexadécimal. Le PC étant en little-endian comme la 3DS, tu pourras charger les données converties sans retournement d'octets.
+4. Valider avec ton propre lecteur. Écris un lecteur Python à toi (sans copier le leur) qui exporte une mission en .obj + images .png, ouvre le résultat dans Blender et compare avec ce que montre c47edit.
+5. Mesurer le budget. Pour chaque mission, note dans un tableau le nombre de triangles, d'objets, de textures (et leur taille) et de scripts. Ce tableau décidera de toutes les optimisations de la phase 2.
+Je peux lire le code des dépôts moi-même et en tirer la spécification ; toi, tu lances les scripts et tu me colles ici les sorties en texte.
+Critère de fin : une mission entière exportée en .obj + .png ressemble à celle qu'affiche c47edit.
+Phase 2 — Le convertisseur PC
+Objectif : c47conv prend le dossier du jeu et produit un dossier de données prêt à copier sur la carte SD, dans des formats que la 3DS lit sans calcul lourd. Python (avec numpy et Pillow) suffit au début.
+Arborescence de sortie (dans sdmc:/3ds/hitman47/data/) :
+• index.bin : version du format et liste des missions ;
+• tex/ : textures converties ;
+• mesh/ : modèles ;
+• scene/ : une scène par mission (objets, collisions, navigation, scripts) ;
+• audio/ : sons convertis.
+Modèles. Un fichier binaire avec un en-tête (signature, version, nombres de sommets et d'indices), puis les sommets entrelacés. Le GPU de la 3DS (PICA200) accepte des attributs en octets, entiers 16 bits ou flottants : stocke les positions en short avec un facteur d'échelle par modèle, les UV en short, les couleurs en 4 octets, et les indices en 16 bits. Regroupe les triangles par texture pour limiter les appels de dessin.
+Textures. Décode le format du jeu (DXT ou palette) en RGBA, redimensionne en puissances de deux (le GPU exige des côtés de 8 à 1024), puis laisse l'outil tex3ds de devkitPro produire les .t3x : il fait lui-même le réarrangement en tuiles propre au GPU et peut utiliser les formats compressés ETC1. Choix du format : RGB565 pour l'opaque, RGBA4 ou RGBA5551 pour les surfaces à bords découpés (grilles, feuillage), RGBA8 seulement quand il le faut.
+Scène. Pour chaque objet : identifiant, type, nom, matrice de position, modèle associé, drapeaux. Ajoute la géométrie de collision (version simplifiée du sol et des murs), les points de navigation et les scripts sous forme de blocs binaires indexés. Repère une fois pour toutes, dans c47edit, l'axe vertical et le sens du repère (gauche ou droite) : le convertisseur les met au format de ton moteur.
+Optimisations faites ici, pas sur la console. Fusionner les objets statiques qui partagent une texture, dédupliquer les textures, supprimer ce qui n'est jamais visible, découper le niveau en cellules avec une boîte englobante pour l'élimination hors-champ, et écrire un rapport de budget (triangles, mémoire) par mission.
+Critère de fin : python c47conv.py <dossier_du_jeu> <sortie> génère la mission 1 sans erreur, avec un rapport de taille que tu peux lire.
+Phase 3 — Le squelette de l'application 3DS
+Objectif : une application qui démarre, affiche un modèle du jeu avec sa texture, lit les boutons et mesure sa vitesse. Pas encore de niveau.
+1. Structure du projet : source/ (code), shaders/ (fichiers .v.pica), romfs/ (ressources intégrées), avec le Makefile de l'exemple citro3d adapté.
+2. Initialisation : gfxInitDefault(), C3D_Init(...), une cible de rendu pour l'écran du haut (400×240) et une pour l'écran du bas (320×240), gfxSet3D(false) (le relief double le coût du rendu). Sur New 3DS, vérifie le modèle avec APT_CheckNew3DS puis appelle osSetSpeedupEnable(true) pour passer le processeur à 804 MHz.
+3. Shader : un vertex shader en assembleur picasso qui applique la matrice de projection et de vue, et transmet UV et couleur. Le mélange texture × couleur se règle avec les TexEnv de citro3d.
+4. Matrices : utilise Mtx_PerspTilt (et pas Mtx_Persp) car les écrans de la 3DS sont montés tournés de 90°.
+5. Chargement : lis un modèle et une texture produits par c47conv depuis la carte SD. Les sommets et les textures doivent être copiés en mémoire linéaire (linearAlloc) pour que le GPU les lise.
+6. Boucle principale : aptMainLoop, lecture des touches, calcul du temps écoulé entre deux images, affichage des FPS sur l'écran du bas, et un fichier de log sdmc:/3ds/hitman47/log.txt.
+7. Erreurs lisibles : si les données manquent, affiche « Données introuvables : lance c47conv » au lieu de planter.
+Critère de fin : un modèle texturé du jeu tourne sur ta console avec un compteur de FPS, et l'émulateur donne le même rendu.
+Phase 4 — Afficher un niveau en caméra libre
+Objectif : traverser toute la mission 1 à 30 images par seconde, sans personnage ni IA.
+1. Chargeur de scène : lit scene/<mission>.c3s, crée la liste des objets (modèle + matrice) et les rattache à leurs cellules.
+2. Budget mémoire. La mémoire utilisable par une application est nettement inférieure aux 256 Mo de la console. Mesure-la au démarrage avec osGetMemRegionFree(MEMREGION_APPLICATION) et linearSpaceFree(), affiche-la à l'écran, et compare avec le rapport de la phase 2. Si la mission dépasse, charge les textures à la demande avec un cache qui évince les plus anciennes.
+3. Élimination. Ne dessine que les cellules visibles dans le champ de la caméra (test de boîtes englobantes), trie les objets par texture, dessine les surfaces opaques puis les transparentes de la plus lointaine à la plus proche.
+4. Distance de vue. Plan lointain réduit et brouillard léger : ça masque l'apparition brutale des objets et décharge le GPU.
+5. Caméra libre. Pad circulaire = avancer et côté, stick C (New 3DS) = regarder, L/R = monter et descendre, croix = vitesse, Select = affichage fil de fer.
+6. Informations de débogage sur l'écran du bas : position, FPS, triangles et appels de dessin par image, mémoire libre.
+7. Corriger les classiques : texture manquante remplacée par un damier magenta, face avant ou arrière inversée, axe V des textures retourné, repère mal orienté.
+8. Lumière. Commence par les couleurs de sommets seules, sans lumière dynamique ; vérifie dans les données du jeu ce qu'elles contiennent.
+Critère de fin : la mission 1 se parcourt entièrement en caméra libre à 30 FPS ou plus sur New 3DS, textures correctes.
+Phase 5 — Faire marcher 47
+Objectif : un personnage contrôlable qui ne traverse pas les murs, avec une caméra stable et des portes qui s'ouvrent.
+1. Entité joueur : position, vitesse, orientation, état (marche, course, accroupi, arme sortie). La logique tourne à pas fixe (par exemple 30 fois par seconde), le rendu suit.
+2. Collisions : représente 47 par une capsule. Le sol se trouve par un rayon lancé vers le bas, les murs par un déplacement de la capsule qui glisse le long des surfaces. Accélère avec la grille de cellules créée par c47conv.
+3. Caméra à la troisième personne : elle suit 47, se rapproche quand un mur la gêne (rayon entre 47 et la caméra), et se tourne avec le stick C. Ton projet vise la New 3DS, donc le stick C et les gâchettes ZL/ZR sont disponibles.
+4. Animations : regarde en phase 1 comment le jeu stocke ses animations (le fichier Repeat.ANM est un point de départ). Première version : 47 glisse sans animation. Ensuite, animation par squelette dans le vertex shader. Le GPU offre environ 96 registres de constantes pour les matrices d'os, donc limite-toi à une vingtaine d'os par modèle.
+5. Interactions : A = action contextuelle. Les portes, ascenseurs et zones déclenchées viennent des types d'objets de la scène.
+6. Contrôles proposés : pad = déplacement, stick C = caméra, ZL = viser, ZR = tirer, A = action, B = courir ou s'accroupir, X = inventaire, Y = changer d'arme, écran tactile = inventaire et carte, Start = menu.
+Critère de fin : 47 marche dans la mission 1 jusqu'à la première porte, l'ouvre, et ne traverse aucun mur.
+Phase 6 — Objets, armes, gardes et scripts
+Objectif : une mission jouable du début à la fin. C'est la phase la plus longue : compte plusieurs mois, et avance par petites victoires.
+1. Registre de classes. Les types d'objets du jeu (décrits par classes.json dans c47edit) deviennent une table de comportements dans ton moteur. Classe d'abord les types par fréquence dans la mission 1 (rapport de la phase 1) et ne code que ceux-là.
+2. Interprète de scripts. Documente en phase 1 le format des scripts, liste les instructions utilisées par la mission 1, et implémente seulement celles-ci : événements, déclencheurs, portes, dialogues, objectifs.
+3. Inventaire et armes : objets à ramasser, munitions, tir par rayon (touche instantanée), dégâts, bruit qui alerte les gardes.
+4. IA des gardes : états (patrouille, soupçon, alerte, attaque), vue (cône de vision + rayon pour vérifier qu'aucun mur ne gêne), ouïe (distance du bruit), déplacement par A* sur le graphe de navigation que c47conv a extrait.
+5. Cibles et objectifs : état de mission (cible éliminée, objet récupéré, sortie atteinte), écran de fin.
+6. Déguisements : changer le modèle et la texture de 47, et règles de reconnaissance par les gardes.
+7. Fidélité. Tu n'as pas le code d'IA d'origine. Si le comportement des gardes est piloté par les données et les scripts de la mission, tu peux l'imiter fidèlement ; sinon, écris une IA à toi, inspirée du jeu. La phase 1 décide laquelle.
+Ordre conseillé pour ne pas se perdre : portes, objets ramassables, armes, un garde immobile, un garde qui patrouille, la vue, le combat, la cible, la fin de mission.
+Critère de fin : la mission 1 se joue du début à la fin : atteindre la cible, l'éliminer, sortir, avec des gardes qui patrouillent et réagissent.
+Phase 7 — Sons, interface et sauvegarde
+Objectif : que ça ressemble à un jeu, pas à une démo technique.
+1. Sons. Le jeu range ses sons dans des fichiers .IDX + .BIN et dans Repeat.WAV (des outils de la communauté, comme Glacier1AudioTool, savent les lire et réécrire ; c47edit a aussi un gestionnaire audio). c47conv les convertit en PCM 16 bits mono à fréquence réduite, ou en ADPCM DSP pour gagner de la place, et l'application les joue avec ndsp. Les tampons audio aussi vont en mémoire linéaire.
+2. Musique. Lue en flux depuis la carte SD par morceaux, pour ne pas occuper la mémoire.
+3. Vidéos et briefings. Laisse les vidéos de côté dans la première version ; affiche les briefings en texte et images.
+4. Interface. Écran du haut = la 3D. Écran du bas = santé, arme et munitions, mini-carte, inventaire tactile.
+5. Menus. Écran titre, choix de mission, options (sensibilité de la caméra, inversion des axes), pause.
+6. Sauvegarde. Un fichier sdmc:/3ds/hitman47/save/slot1.sav avec la progression (missions réussies, armes débloquées) et les options, écrit de façon sûre (fichier temporaire puis renommage) pour ne jamais corrompre une partie.
+7. Textes. Lis les textes dans les fichiers du jeu : ta version GOG fournit la langue de l'utilisateur, pas ton application.
+Critère de fin : un son se déclenche au tir, le HUD s'affiche sur l'écran du bas, et quitter puis relancer retrouve les options.
+Phase 8 — Lancer le jeu « en interne »
+Objectif : avec ton application et la copie du jeu de l'utilisateur, on arrive de l'écran titre à la mission. Deux chemins, à faire dans cet ordre.
+Chemin A — import sur PC (à faire d'abord). L'utilisateur lance c47conv sur son dossier du jeu, copie le dossier produit dans sdmc:/3ds/hitman47/data/, et l'application le lit. C'est ce que tu as construit depuis la phase 2, il ne reste qu'à le rendre propre : messages clairs, version du format vérifiée, aide à l'écran si les données manquent.
+Chemin B — import sur la console (le vrai « interne »). L'utilisateur copie le dossier original du jeu dans sdmc:/3ds/hitman47/game/ et l'application convertit elle-même au premier lancement.
+1. Fais de ton convertisseur une bibliothèque C++ qui se compile pour le PC et pour la 3DS : c'est une réécriture de c47conv, pas un simple portage, alors garde son code simple (miniz ou zlib pour les ZIP, ton propre décodeur DXT).
+2. Au démarrage, l'application décide : données converties valides → menu ; sinon dossier game/ présent → import avec barre de progression sur l'écran du bas ; sinon écran d'aide.
+3. L'import doit être reprenable (une mission à la fois, avec un fichier de progression) : le processeur de la console est bien plus lent que celui d'un PC et l'utilisateur doit pouvoir l'interrompre.
+4. Vérifier la version du jeu par la taille et une somme de contrôle de quelques fichiers clés. Liste les versions testées (la tienne, GOG, d'abord) et affiche un message clair pour toute autre.
+5. Entre deux missions, libère toute la mémoire (un allocateur par mission) pour éviter les fuites.
+Règle qui ne change pas : ton application et son dépôt ne contiennent ni modèles, ni textures, ni sons, ni textes du jeu. Ajoute data/ et game/ à ton .gitignore.
+Critère de fin : avec la copie du jeu sur la carte SD et rien d'autre, tu passes de l'écran titre au chargement de la mission 1 puis au retour au menu (chemin B), ou avec c47conv une seule fois (chemin A).
+Phase 9 — Optimiser, tester, publier
+Objectif : un jeu stable sur de vraies consoles, que d'autres peuvent installer.
+1. Mesurer avant d'optimiser. Chronomètre chaque partie de l'image (logique, IA, élimination, envoi des dessins) et lis les temps GPU avec C3D_GetProcessingTime() et C3D_GetDrawingTime(). Optimise seulement ce qui ressort.
+2. Leviers habituels : moins d'appels de dessin (fusion par texture), niveaux de détail par distance, textures ETC1 avec mipmaps, IA active seulement pour les gardes proches, chargement sur un second fil. La New 3DS a des cœurs supplémentaires utilisables avec threadCreate ; vérifie lesquels ton application peut utiliser.
+3. Plan de test pour chaque mission : elle démarre, FPS minimum et moyen notés, pic de mémoire noté, 30 minutes de jeu sans plantage. Ajoute des tests de cas d'erreur : carte SD sans données, fichier de sauvegarde corrompu, mauvaise version du jeu.
+4. Journal et écran d'erreur : tout plantage prévisible affiche un message et écrit dans log.txt, pour que les retours des testeurs soient exploitables.
+5. Publication. Dépôt Git avec un README (installer le .3dsx dans /3ds/, copier le jeu, quelles étapes suivre), une licence, les crédits d'AdrienTD et des auteurs des outils, et une release du .3dsx. Présente le projet comme un port de fan non officiel, ne distribue jamais de fichiers du jeu, et n'utilise ni logo ni image officielle.
+Critère de fin : la release fonctionne sur au moins deux consoles ou une console et un émulateur, avec les chiffres de performance notés dans le README.
+Jalons
+Chaque jalon donne quelque chose à regarder ; ne passe au suivant que si le critère est tenu.
+Jalon
+Phase
+Ce qu'on voit
+Critère de réussite
+J0 Outils prêts
+0
+Un cube texturé sur la 3DS, une mission dans c47edit
+make produit un .3dsx qui se lance
+J1 Formats compris
+1
+Une mission exportée dans Blender
+Ressemble à celle de c47edit
+J2 Convertisseur
+2
+Un dossier data/ et un rapport de budget
+Mission 1 convertie sans erreur
+J3 Modèle sur 3DS
+3
+Un modèle du jeu avec compteur de FPS
+60 FPS sur New 3DS
+J4 Niveau en caméra libre
+4
+Mission 1 traversable
+30 FPS ou plus, textures correctes
+J5 47 marche
+5
+Personnage, collisions, portes
+Aucun mur traversé
+J6 Mission jouable
+6
+Gardes, cible, fin de mission
+Mission 1 terminée de bout en bout
+J7 Jeu habillé
+7
+Sons, HUD, menus, sauvegarde
+Options retrouvées après redémarrage
+J8 Lancement interne
+8
+De l'écran titre à la mission
+Fonctionne avec le jeu copié sur la carte SD
+J9 Version publique
+9
+Release sur Git
+Testée sur deux machines
+Risques
+Risque
+Pourquoi
+Parade
+Formats incomplets
+c47edit se présente comme un travail en cours
+Valider avec ton propre lecteur, se limiter à la mission 1
+Mémoire insuffisante
+Une application dispose de bien moins que les 256 Mo de la console
+Cache de textures, ETC1, résolutions réduites, cellules
+Vitesse du GPU
+Le PICA200 est un GPU de 2011
+Fusion par texture, élimination, brouillard, budget de triangles mesuré en phase 1
+Scripts et IA plus gros que prévu
+Tout le comportement de la mission en dépend
+Interpréter seulement les instructions de la mission 1, IA maison si besoin
+Licence GPL
+c47edit est sous GPL-3.0
+Réécrire plutôt que copier, ou publier ton projet en GPL-3.0
+Autre version du jeu
+Les fichiers peuvent différer d'une édition à l'autre
+Somme de contrôle et message clair
+Test seulement en émulateur
+L'émulateur cache les problèmes de vitesse et de mémoire
+Un test par jalon sur la console réelle
+Dispersion
+Vouloir toutes les missions trop tôt
+Pas de mission 2 avant J6
+Sources
+Les noms de fichiers, la licence et le guide de démarrage de c47edit viennent de ces pages. Les détails sur la 3DS (GPU, formats de texture, fonctions de libctru et citro3d) viennent de mes connaissances générales : vérifie-les dans la documentation de devkitPro avant de coder.
+• c47edit — éditeur de scènes pour Hitman C47
+• c47edit — Start Guide
+• 47tools — outils pour les jeux Glacier 1
+• Glacier1AudioTool

@@ -1,0 +1,706 @@
+Archives ZIP: 57
+Dossier du jeu: C:\Users\dodo\Desktop\port hitman 47\Hitman Codename 47
+
+AllLevels\IngameDisplayItems.zip | 2 fichiers | 209232 octets decompresses | .ttf:2
+  Bitmaps/Fonts/BNKGOTHL.TTF | 35616 octets | 22670 octets compresses
+  Bitmaps/Fonts/cour.ttf | 173616 octets | 104275 octets compresses
+AllLevels\LapTopMain.zip | 2 fichiers | 224624 octets decompresses | .ttf:2
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Bitmaps/Fonts/BNKGOTHL.TTF | 35616 octets | 22670 octets compresses
+C0_Training\C0_1_Pre.zip | 6 fichiers | 1571489 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382425 octets | 52851 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C0_Training\C0_1.zip | 20 fichiers | 4556099 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:2, .pal:1, .sdl:12, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C0_Training/Personel02.sdl | 3703 octets | 1189 octets compresses
+  Scripts/AllLevels/Std/RestrictedGuard.sdl | 2009 octets | 766 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17333 octets | 4179 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Scripts/C0_Training/MissionControl.sdl | 6569 octets | 1705 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Scripts/C0_Training/Dummy.sdl | 792 octets | 377 octets compresses
+  Scripts/C0_Training/Personel01.sdl | 3627 octets | 1254 octets compresses
+  Scripts/AllLevels/Std/PatrolGuard.sdl | 1323 octets | 504 octets compresses
+  Pack.LGT | 1003063 octets | 397740 octets compresses
+  Pack.SPK | 3337648 octets | 972655 octets compresses
+  PackRepeat.PAL | 7512 octets | 4089 octets compresses
+  PackRepeat.DXT | 7512 octets | 3770 octets compresses
+  PackRepeat.WAV | 5832 octets | 2372 octets compresses
+  PackRepeat.ANM | 8968 octets | 2807 octets compresses
+C1_HongKong\C1_1_Laptop.zip | 6 fichiers | 2475552 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .spk:1, .wav:1
+  Pack.LGT | 95636 octets | 2927 octets compresses
+  Pack.SPK | 2374524 octets | 908748 octets compresses
+  PackRepeat.PAL | 2424 octets | 1511 octets compresses
+  PackRepeat.DXT | 2424 octets | 1332 octets compresses
+  PackRepeat.WAV | 336 octets | 198 octets compresses
+  PackRepeat.ANM | 208 octets | 170 octets compresses
+C1_HongKong\C1_1_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 55365 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C1_HongKong\C1_1.zip | 30 fichiers | 6544981 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:5, .pal:1, .sdl:19, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Worlds/CutScenes/MovieCuts/C1-1/C1-1_Shoot_Chopper/Shoot_Chopper_Soldier.mor | 2272 octets | 445 octets compresses
+  Scripts/C1_HongKong/C1_1_BlueLotusInHeli.sdl | 5378 octets | 1692 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Worlds/Characters/Anims/Skeleton 11/Skeleton_11.mor | 19329 octets | 1323 octets compresses
+  Scripts/AllLevels/Std/Pedestrian.sdl | 2484 octets | 1048 octets compresses
+  Scripts/AllLevels/Std/Neutral.sdl | 13099 octets | 3403 octets compresses
+  Scripts/C1_HongKong/C1_1_BlueLotusMemberStairs.sdl | 1913 octets | 803 octets compresses
+  Scripts/C1_HongKong/C1_1_BlueLotusMember.sdl | 7657 octets | 2331 octets compresses
+  Scripts/AllLevels/Std/AreaGuard.sdl | 3823 octets | 1302 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/C1_HongKong/C1_1_BlueLotusMemberGate.sdl | 3566 octets | 1005 octets compresses
+  Scripts/C1_HongKong/C1_1_BlueLotusMemberPark.sdl | 2693 octets | 830 octets compresses
+  Scripts/C1_HongKong/C1_1_BlueLotusPatrolGuard.sdl | 2479 octets | 815 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Scripts/C1_HongKong/C1_1_RedDragonNegotiator.sdl | 4376 octets | 1485 octets compresses
+  Scripts/AllLevels/Utils/CarUtils.sdl | 4733 octets | 992 octets compresses
+  Scripts/C1_HongKong/C1_1_BlueLotusNegotiator.sdl | 3841 octets | 1224 octets compresses
+  Scripts/C1_HongKong/C1_1_Limo.sdl | 525 octets | 257 octets compresses
+  Pack.LGT | 1482782 octets | 290361 octets compresses
+  Pack.SPK | 4759848 octets | 1425261 octets compresses
+  PackRepeat.PAL | 9024 octets | 5040 octets compresses
+  PackRepeat.DXT | 9024 octets | 4653 octets compresses
+  PackRepeat.WAV | 5160 octets | 2127 octets compresses
+  PackRepeat.ANM | 15696 octets | 4485 octets compresses
+C1_HongKong\C1_2_Laptop.zip | 6 fichiers | 2887682 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .spk:1, .wav:1
+  Pack.LGT | 76770 octets | 13742 octets compresses
+  Pack.SPK | 2804368 octets | 1097818 octets compresses
+  PackRepeat.PAL | 2832 octets | 1787 octets compresses
+  PackRepeat.DXT | 2832 octets | 1602 octets compresses
+  PackRepeat.WAV | 648 octets | 339 octets compresses
+  PackRepeat.ANM | 232 octets | 185 octets compresses
+C1_HongKong\C1_2_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 208075 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C1_HongKong\C1_2.zip | 34 fichiers | 5694311 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:4, .pal:1, .sdl:24, .spk:1, .wav:1
+  Scripts/C1_HongKong/C1_2_Limo.sdl | 2177 octets | 783 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C1_HongKong/C1_2_RedDragonPatrolGuard.sdl | 636 octets | 391 octets compresses
+  Scripts/AllLevels/Std/PatrolGuard.sdl | 1323 octets | 504 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/C1_HongKong/C1_2_CheckSuit.sdl | 577 octets | 241 octets compresses
+  Scripts/C1_HongKong/C1_2_RedDragonMember_inside.sdl | 357 octets | 238 octets compresses
+  Scripts/C1_HongKong/C1_2_RedDragonMember_ExitGuard.sdl | 383 octets | 254 octets compresses
+  Worlds/Characters/Anims/Skeleton 11/Skeleton_11.mor | 19329 octets | 1323 octets compresses
+  Scripts/AllLevels/Std/Pedestrian.sdl | 2484 octets | 1048 octets compresses
+  Scripts/AllLevels/Std/Neutral.sdl | 13099 octets | 3403 octets compresses
+  Scripts/C1_HongKong/C1_2_BlueLotusMember_bg.sdl | 455 octets | 285 octets compresses
+  Scripts/C1_HongKong/C1_2_BlueBase.sdl | 2114 octets | 806 octets compresses
+  Scripts/AllLevels/Std/AreaGuard.sdl | 3823 octets | 1302 octets compresses
+  Scripts/AllLevels/Utils/CarUtils.sdl | 4733 octets | 992 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Scripts/C1_HongKong/C1_2_BlueLotusNegotiator.sdl | 2395 octets | 878 octets compresses
+  Scripts/C1_HongKong/C1_2_RedDragonMember.sdl | 1682 octets | 725 octets compresses
+  Scripts/C1_HongKong/C1_2_MissionControl.sdl | 2329 octets | 896 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Scripts/C1_HongKong/C1_2_LimoDriver.sdl | 3469 octets | 1158 octets compresses
+  Scripts/C1_HongKong/C1_2_BlueLotusMember2.sdl | 241 octets | 179 octets compresses
+  Scripts/C1_HongKong/C1_2_BlueLotusMember.sdl | 4806 octets | 1674 octets compresses
+  Pack.LGT | 881895 octets | 198618 octets compresses
+  Pack.SPK | 4513641 octets | 1390254 octets compresses
+  PackRepeat.PAL | 12672 octets | 6920 octets compresses
+  PackRepeat.DXT | 12672 octets | 6252 octets compresses
+  PackRepeat.WAV | 5808 octets | 2400 octets compresses
+  PackRepeat.ANM | 15932 octets | 4593 octets compresses
+C1_HongKong\C1_3_Laptop.zip | 6 fichiers | 2718774 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .spk:1, .wav:1
+  Pack.LGT | 98846 octets | 9251 octets compresses
+  Pack.SPK | 2612680 octets | 1002304 octets compresses
+  PackRepeat.PAL | 3096 octets | 1917 octets compresses
+  PackRepeat.DXT | 3096 octets | 1716 octets compresses
+  PackRepeat.WAV | 696 octets | 352 octets compresses
+  PackRepeat.ANM | 360 octets | 246 octets compresses
+C1_HongKong\C1_3_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 178796 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C1_HongKong\C1_3.zip | 30 fichiers | 4849606 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:4, .pal:1, .sdl:20, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 11/Skeleton_11.mor | 19329 octets | 1323 octets compresses
+  Scripts/C1_HongKong/C1_3_Pedestrian.sdl | 697 octets | 379 octets compresses
+  Scripts/AllLevels/Std/Pedestrian.sdl | 2484 octets | 1048 octets compresses
+  Scripts/AllLevels/Std/Neutral.sdl | 13099 octets | 3403 octets compresses
+  Scripts/AllLevels/Std/Man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C1_HongKong/C1_3_FrontDoorGuard.sdl | 8011 octets | 1986 octets compresses
+  Scripts/C1_HongKong/C1_3_Guard.sdl | 2365 octets | 852 octets compresses
+  Scripts/AllLevels/Std/PatrolGuard.sdl | 1323 octets | 504 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Scripts/C1_HongKong/C1_3_AsianChef.sdl | 825 octets | 421 octets compresses
+  Scripts/C1_HongKong/C1_3_Neutral.sdl | 688 octets | 378 octets compresses
+  Scripts/C1_HongKong/C1_3_AsianBartender.sdl | 3949 octets | 1387 octets compresses
+  Scripts/C1_HongKong/C1_3_BlueLotusMember.sdl | 6338 octets | 1885 octets compresses
+  Scripts/C1_HongKong/C1_3_BackDoorGuard.sdl | 1428 octets | 611 octets compresses
+  Scripts/C1_HongKong/C1_3_RedDragonMember.sdl | 7085 octets | 2090 octets compresses
+  Scripts/C1_HongKong/C1_3_PoliceChief.sdl | 16633 octets | 3546 octets compresses
+  Scripts/C1_HongKong/C1_3_PatrolGuard.sdl | 2981 octets | 1038 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Pack.LGT | 640027 octets | 125203 octets compresses
+  Pack.SPK | 3894981 octets | 1162005 octets compresses
+  PackRepeat.PAL | 10368 octets | 5833 octets compresses
+  PackRepeat.DXT | 10368 octets | 5382 octets compresses
+  PackRepeat.WAV | 5328 octets | 2191 octets compresses
+  PackRepeat.ANM | 16020 octets | 4715 octets compresses
+C1_HongKong\C1_4_Laptop.zip | 9 fichiers | 2789213 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:3, .pal:1, .spk:1, .wav:1
+  Worlds/CutScenes/LaptopBriefings/C1-4/C1-4_Laptop_PoliceChief.mor | 3769 octets | 581 octets compresses
+  Worlds/CutScenes/LaptopBriefings/C1-4/C1-4_Laptop_TriadLeader.mor | 2674 octets | 325 octets compresses
+  Worlds/CutScenes/LaptopBriefings/C1-4/C1-4_Laptop_Zun.mor | 1599 octets | 318 octets compresses
+  Pack.LGT | 90028 octets | 36963 octets compresses
+  Pack.SPK | 2684675 octets | 1013054 octets compresses
+  PackRepeat.PAL | 2640 octets | 1653 octets compresses
+  PackRepeat.DXT | 2640 octets | 1482 octets compresses
+  PackRepeat.WAV | 696 octets | 352 octets compresses
+  PackRepeat.ANM | 492 octets | 333 octets compresses
+C1_HongKong\C1_4_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 133802 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C1_HongKong\C1_4.zip | 54 fichiers | 17620454 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:10, .pal:1, .sdl:38, .spk:1, .wav:1
+  Scripts/C1_HongKong/C1_4_SafeGroup.sdl | 373 octets | 250 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Scripts/C1_HongKong/C1_4_Safe.sdl | 3724 octets | 1259 octets compresses
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C1_HongKong/C1_4_DoorGuard.sdl | 3209 octets | 1191 octets compresses
+  Scripts/C1_HongKong/C1_4_AlarmGuard.sdl | 8862 octets | 2747 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/C1_HongKong/C1_4_RestaurantGuard.sdl | 5875 octets | 1820 octets compresses
+  Scripts/C1_HongKong/C1_4_DoorGuardBrothel.sdl | 449 octets | 295 octets compresses
+  Scripts/C1_HongKong/C1_4_BodyGuardGuard.sdl | 1525 octets | 647 octets compresses
+  Scripts/C1_HongKong/C1_4_PatrolRedDragon.sdl | 1072 octets | 482 octets compresses
+  Scripts/C1_HongKong/C1_4_PatrolBodyGuard.sdl | 3182 octets | 1146 octets compresses
+  Scripts/C1_HongKong/C1_4_RedDragonGuard.sdl | 1322 octets | 607 octets compresses
+  Scripts/C1_HongKong/C1_4_SafeGuard.sdl | 2740 octets | 1050 octets compresses
+  Scripts/C1_HongKong/C1_4_TriadLeaderGuard.sdl | 9036 octets | 2193 octets compresses
+  Scripts/C1_HongKong/C1_4_DoorGuardCia.sdl | 2593 octets | 1035 octets compresses
+  Scripts/C1_HongKong/C1_4_HallRoomFlyerGuard.sdl | 3797 octets | 1214 octets compresses
+  Scripts/C1_HongKong/C1_4_PatrolGuardLeader.sdl | 4057 octets | 1487 octets compresses
+  Scripts/C1_HongKong/C1_4_TowerGuard.sdl | 3198 octets | 1151 octets compresses
+  Scripts/C1_HongKong/C1_4_RedDragonMemberRoof.sdl | 1973 octets | 791 octets compresses
+  Worlds/Characters/Anims/Skeleton 11/Skeleton_11.mor | 19329 octets | 1323 octets compresses
+  Scripts/C1_HongKong/C1_4_Bartender.sdl | 10519 octets | 2645 octets compresses
+  Scripts/C1_HongKong/C1_4_Hitman.sdl | 2684 octets | 907 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Worlds/Characters/Anims/Skeleton 03/Skeleton_03.mor | 34571 octets | 1573 octets compresses
+  Scripts/C1_HongKong/C1_4_Pimp.sdl | 4579 octets | 1522 octets compresses
+  Worlds/Characters/Anims/Skeleton 05/Skeleton_05.mor | 9285 octets | 718 octets compresses
+  Scripts/C1_HongKong/C1_4_HerbShopOwner.sdl | 10821 octets | 2936 octets compresses
+  Scripts/AllLevels/Std/Neutral.sdl | 13099 octets | 3403 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Scripts/C1_HongKong/C1_4_Chef.sdl | 8925 octets | 2651 octets compresses
+  Worlds/Characters/Anims/Skeleton 02/Skeleton_02.mor | 29234 octets | 1532 octets compresses
+  Scripts/C1_HongKong/C1_4_Zun.sdl | 5446 octets | 1877 octets compresses
+  Worlds/Characters/Anims/Skeleton 05/BrothelMadame.mor | 2755 octets | 363 octets compresses
+  Scripts/C1_HongKong/C1_4_Madame.sdl | 3119 octets | 1118 octets compresses
+  Worlds/Characters/Anims/Skeleton 08/Skeleton_08.mor | 28141 octets | 1651 octets compresses
+  Scripts/C1_HongKong/C1_4_Lei.sdl | 25076 octets | 5354 octets compresses
+  Scripts/C1_HongKong/C1_4_LeeHong.sdl | 6118 octets | 2021 octets compresses
+  Scripts/C1_HongKong/C1_4_Waiter.sdl | 5787 octets | 1352 octets compresses
+  Scripts/C1_HongKong/C1_4_RestaurantGuest.sdl | 1155 octets | 546 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/FBI_Agent.mor | 8183 octets | 582 octets compresses
+  Scripts/C1_HongKong/C1_4_CIAAgent.sdl | 5881 octets | 1954 octets compresses
+  Scripts/C1_HongKong/C1_4_SuperBowl.sdl | 324 octets | 196 octets compresses
+  Scripts/C1_HongKong/C1_4_JadeFigure.sdl | 1197 octets | 498 octets compresses
+  Pack.LGT | 4544617 octets | 1595476 octets compresses
+  Pack.SPK | 12523031 octets | 3765869 octets compresses
+  PackRepeat.PAL | 19512 octets | 11356 octets compresses
+  PackRepeat.DXT | 19512 octets | 10274 octets compresses
+  PackRepeat.WAV | 8664 octets | 3610 octets compresses
+  PackRepeat.ANM | 26624 octets | 8291 octets compresses
+C2_RotterdamHarbor\C2_1_Laptop.zip | 7 fichiers | 3156442 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:1, .pal:1, .spk:1, .wav:1
+  Worlds/CutScenes/LaptopBriefings/C2-1/C2_1_Laptop.mor | 30800 octets | 2791 octets compresses
+  Pack.LGT | 148633 octets | 59630 octets compresses
+  Pack.SPK | 2967473 octets | 1132559 octets compresses
+  PackRepeat.PAL | 4368 octets | 2676 octets compresses
+  PackRepeat.DXT | 4368 octets | 2367 octets compresses
+  PackRepeat.WAV | 480 octets | 274 octets compresses
+  PackRepeat.ANM | 320 octets | 239 octets compresses
+C2_RotterdamHarbor\C2_1_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 172514 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C2_RotterdamHarbor\C2_1.zip | 38 fichiers | 11978309 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:8, .pal:1, .sdl:24, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/DutchGangMemberGuard_Barrel.sdl | 1496 octets | 698 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Worlds/Characters/Anims/Skeleton 15/Skeleton_15.mor | 12875 octets | 892 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/Doberman.sdl | 991 octets | 479 octets compresses
+  Scripts/AllLevels/Std/GuardDog.sdl | 3079 octets | 1076 octets compresses
+  Worlds/Characters/Anims/Skeleton 09/Skeleton_09.mor | 2235 octets | 304 octets compresses
+  Worlds/Characters/Anims/Skeleton 09/Stripper.mor | 10069 octets | 566 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/Stripper.sdl | 4253 octets | 1298 octets compresses
+  Scripts/AllLevels/Std/Neutral.sdl | 13099 octets | 3403 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/HitmanStartDialog.sdl | 233 octets | 162 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/DutchGangMemberGuard01.sdl | 5745 octets | 1805 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/DutchGangMemberGuard.sdl | 1596 octets | 658 octets compresses
+  Scripts/AllLevels/Utils/CarUtils.sdl | 4733 octets | 992 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/DutchGangMemberGuard02.sdl | 1768 octets | 769 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/DutchGangMemberGuard03.sdl | 1183 octets | 347 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/DutchGangMemberGuard04.sdl | 1183 octets | 347 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/DutchGangMemberGuard05.sdl | 433 octets | 268 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/DutchGangMemberGuard06.sdl | 433 octets | 268 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Sleazy_Bartender.mor | 4647 octets | 410 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/Bartender.sdl | 2362 octets | 821 octets compresses
+  Worlds/Characters/Anims/Skeleton 03/Skeleton_03.mor | 34571 octets | 1573 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/Ivan.sdl | 8661 octets | 2406 octets compresses
+  Scripts/AllLevels/Std/PatrolGuard.sdl | 1323 octets | 504 octets compresses
+  Scripts/C2_RotterdamHabor/C2_1/GangCar.sdl | 2708 octets | 752 octets compresses
+  Pack.LGT | 2105493 octets | 754451 octets compresses
+  Pack.SPK | 9518473 octets | 2602409 octets compresses
+  PackRepeat.PAL | 13488 octets | 7675 octets compresses
+  PackRepeat.DXT | 13488 octets | 6862 octets compresses
+  PackRepeat.WAV | 6624 octets | 2743 octets compresses
+  PackRepeat.ANM | 15788 octets | 4893 octets compresses
+C2_RotterdamHarbor\C2_2_Laptop.zip | 6 fichiers | 2106758 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .spk:1, .wav:1
+  Pack.LGT | 6315 octets | 2403 octets compresses
+  Pack.SPK | 2095843 octets | 852318 octets compresses
+  PackRepeat.PAL | 1896 octets | 1188 octets compresses
+  PackRepeat.DXT | 1896 octets | 1065 octets compresses
+  PackRepeat.WAV | 600 octets | 329 octets compresses
+  PackRepeat.ANM | 208 octets | 170 octets compresses
+C2_RotterdamHarbor\C2_2_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 80138 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C2_RotterdamHarbor\C2_2.zip | 27 fichiers | 14200165 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:5, .pal:1, .sdl:16, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/Enemy.sdl | 13068 octets | 3106 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/sniper.sdl | 4642 octets | 1408 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/MachineCrew.sdl | 851 octets | 451 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/BodyGuard.sdl | 819 octets | 421 octets compresses
+  Worlds/Characters/Anims/Skeleton 03/Skeleton_03.mor | 34571 octets | 1573 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/Ivan.sdl | 1358 octets | 608 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/Boris.sdl | 5521 octets | 1574 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/Captain.sdl | 289 octets | 208 octets compresses
+  Worlds/Characters/Anims/Skeleton 15/Skeleton_15.mor | 12875 octets | 892 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/HarbourDog.sdl | 852 octets | 426 octets compresses
+  Scripts/AllLevels/Std/GuardDog.sdl | 3079 octets | 1076 octets compresses
+  Scripts/C2_RotterdamHabor/C2_2/HarbourPatrol.sdl | 231 octets | 172 octets compresses
+  Pack.LGT | 3116877 octets | 1246406 octets compresses
+  Pack.SPK | 10762645 octets | 3032626 octets compresses
+  PackRepeat.PAL | 17232 octets | 9823 octets compresses
+  PackRepeat.DXT | 17232 octets | 8665 octets compresses
+  PackRepeat.WAV | 7584 octets | 3152 octets compresses
+  PackRepeat.ANM | 15160 octets | 4740 octets compresses
+C3_BudapestHotel\C3_1_Laptop.zip | 6 fichiers | 2687071 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .spk:1, .wav:1
+  Pack.LGT | 58418 octets | 25646 octets compresses
+  Pack.SPK | 2621101 octets | 960080 octets compresses
+  PackRepeat.PAL | 3360 octets | 2016 octets compresses
+  PackRepeat.DXT | 3360 octets | 1763 octets compresses
+  PackRepeat.WAV | 576 octets | 303 octets compresses
+  PackRepeat.ANM | 256 octets | 192 octets compresses
+C3_BudapestHotel\C3_1_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 197007 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C3_BudapestHotel\C3_1.zip | 42 fichiers | 15183331 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:8, .pal:1, .sdl:28, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 11/Skeleton_11.mor | 19329 octets | 1323 octets compresses
+  Scripts/C3_BudapestHotel/BellBoy.sdl | 11936 octets | 2385 octets compresses
+  Scripts/AllLevels/Std/Neutral.sdl | 13099 octets | 3403 octets compresses
+  Scripts/AllLevels/Std/Man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C3_BudapestHotel/TerroristGuard.sdl | 248 octets | 184 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/C3_BudapestHotel/HotelGuardPatrol.sdl | 366 octets | 244 octets compresses
+  Scripts/AllLevels/Std/PatrolGuard.sdl | 1323 octets | 504 octets compresses
+  Worlds/Characters/Anims/Skeleton 08/Skeleton_08.mor | 28141 octets | 1651 octets compresses
+  Scripts/C3_BudapestHotel/HotelGuest.sdl | 10985 octets | 2924 octets compresses
+  Scripts/C3_BudapestHotel/HotelGuard.sdl | 349 octets | 239 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Scripts/C3_BudapestHotel/Terrorist.sdl | 2009 octets | 562 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Sleazy_Bartender.mor | 4647 octets | 410 octets compresses
+  Scripts/C3_BudapestHotel/Bartender.sdl | 735 octets | 362 octets compresses
+  Scripts/C3_BudapestHotel/FlowerShopDealer.sdl | 1929 octets | 725 octets compresses
+  Scripts/C3_BudapestHotel/TerroristGuard01.sdl | 3466 octets | 1102 octets compresses
+  Scripts/C3_BudapestHotel/TerroristGuard02.sdl | 3736 octets | 1067 octets compresses
+  Scripts/C3_BudapestHotel/FritzFuchs.sdl | 7695 octets | 1843 octets compresses
+  Scripts/C3_BudapestHotel/BathAttendant.sdl | 3084 octets | 939 octets compresses
+  Worlds/Characters/Anims/Skeleton 02/Skeleton_02.mor | 29234 octets | 1532 octets compresses
+  Scripts/C3_BudapestHotel/BathLady.sdl | 2978 octets | 911 octets compresses
+  Scripts/C3_BudapestHotel/HotelPortier.sdl | 4522 octets | 1377 octets compresses
+  Scripts/C3_BudapestHotel/HotelGuardExtra.sdl | 376 octets | 239 octets compresses
+  Scripts/C3_BudapestHotel/Chef.sdl | 3521 octets | 1295 octets compresses
+  Scripts/C3_BudapestHotel/TerroristGuard06.sdl | 1712 octets | 544 octets compresses
+  Scripts/C3_BudapestHotel/TerroristGuard07.sdl | 599 octets | 294 octets compresses
+  Worlds/Characters/Anims/Skeleton 08/Dentist_Receptionist.mor | 2605 octets | 313 octets compresses
+  Scripts/C3_BudapestHotel/DentistReceptionist.sdl | 2944 octets | 916 octets compresses
+  Scripts/C3_BudapestHotel/C3_1_IntroSequence.sdl | 492 octets | 307 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Pack.LGT | 3756307 octets | 1654063 octets compresses
+  Pack.SPK | 11001829 octets | 3102676 octets compresses
+  PackRepeat.PAL | 23520 octets | 13592 octets compresses
+  PackRepeat.DXT | 23520 octets | 11412 octets compresses
+  PackRepeat.WAV | 7632 octets | 3165 octets compresses
+  PackRepeat.ANM | 23184 octets | 7220 octets compresses
+C4_ColombianRainForest\C4_1_Laptop.zip | 5 fichiers | 3314867 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .wav:1
+  Pack.LGT | 13641 octets | 2584 octets compresses
+  Pack.SPK | 3295514 octets | 1522763 octets compresses
+  PackRepeat.PAL | 2568 octets | 1611 octets compresses
+  PackRepeat.DXT | 2568 octets | 1413 octets compresses
+  PackRepeat.WAV | 576 octets | 303 octets compresses
+C4_ColombianRainForest\C4_1_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 225791 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C4_ColombianRainForest\C4_1.zip | 31 fichiers | 15958627 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:2, .pal:1, .sdl:23, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_IndianBridgeGuard.sdl | 2193 octets | 742 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_IndianGuard.sdl | 3478 octets | 1059 octets compresses
+  Scripts/AllLevels/std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_IndianPairedGuard.sdl | 5841 octets | 1454 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_IndianBodyguard.sdl | 2183 octets | 711 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_IndianBrother.sdl | 2289 octets | 869 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_IndianChief.sdl | 3976 octets | 1213 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianStationaryGuard.sdl | 224 octets | 156 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianGuard.sdl | 1869 octets | 687 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianBridgeGuard.sdl | 2020 octets | 734 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianTowerGuard.sdl | 2151 octets | 774 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianPlaneSoldier.sdl | 796 octets | 370 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianPatrolSoldier.sdl | 3146 octets | 878 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianWingSoldier.sdl | 1184 octets | 506 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianPlaneOfficer.sdl | 898 octets | 439 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianPatrolOfficer.sdl | 2587 octets | 796 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_ColumbianPairedGuard.sdl | 2806 octets | 814 octets compresses
+  Scripts/C4_ColombianRainForest/C4_1_SoldierInRiverHeli.sdl | 6457 octets | 1934 octets compresses
+  Pack.LGT | 3311438 octets | 1649227 octets compresses
+  Pack.SPK | 12403307 octets | 3794529 octets compresses
+  PackRepeat.PAL | 8832 octets | 4768 octets compresses
+  PackRepeat.DXT | 8832 octets | 4327 octets compresses
+  PackRepeat.WAV | 5664 octets | 2342 octets compresses
+  PackRepeat.ANM | 8904 octets | 2746 octets compresses
+C4_ColombianRainForest\C4_2_Laptop.zip | 6 fichiers | 2647993 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .spk:1, .wav:1
+  Pack.LGT | 64802 octets | 16339 octets compresses
+  Pack.SPK | 2577319 octets | 992939 octets compresses
+  PackRepeat.PAL | 2544 octets | 1612 octets compresses
+  PackRepeat.DXT | 2544 octets | 1428 octets compresses
+  PackRepeat.WAV | 576 octets | 303 octets compresses
+  PackRepeat.ANM | 208 octets | 171 octets compresses
+C4_ColombianRainForest\C4_2_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 181302 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C4_ColombianRainForest\C4_2.zip | 27 fichiers | 10536959 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:2, .pal:1, .sdl:19, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_columbian_ledge_native.sdl | 4145 octets | 1187 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_Columbian_pig_guard.sdl | 3193 octets | 948 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_columbian_follower_guard.sdl | 4693 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/PatrolGuard.sdl | 1323 octets | 504 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_columbian_native.sdl | 3559 octets | 944 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_columbian_patrol_guard.sdl | 7926 octets | 1928 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_columbian_guard.sdl | 6369 octets | 1684 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_columbian_pig.sdl | 4667 octets | 1165 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_Columbian_square_guard.sdl | 5593 octets | 1494 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_Hitman.sdl | 809 octets | 374 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_JaguarGod.sdl | 7780 octets | 1838 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_Columbian_180_guard.sdl | 4921 octets | 1458 octets compresses
+  Scripts/C4_ColombianRainForest/C4_2_columbian_pig_dead.sdl | 860 octets | 236 octets compresses
+  Pack.LGT | 3269211 octets | 1407008 octets compresses
+  Pack.SPK | 7010118 octets | 1927158 octets compresses
+  PackRepeat.PAL | 9168 octets | 4933 octets compresses
+  PackRepeat.DXT | 9168 octets | 4503 octets compresses
+  PackRepeat.WAV | 6168 octets | 2543 octets compresses
+  PackRepeat.ANM | 9736 octets | 3066 octets compresses
+C4_ColombianRainForest\C4_3_Laptop.zip | 7 fichiers | 2432280 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:1, .pal:1, .spk:1, .wav:1
+  Worlds/CutScenes/LaptopBriefings/C4_3/C4_3_Laptop_Druglord.mor | 4880 octets | 550 octets compresses
+  Pack.LGT | 143382 octets | 33903 octets compresses
+  Pack.SPK | 2278578 octets | 920629 octets compresses
+  PackRepeat.PAL | 2136 octets | 1349 octets compresses
+  PackRepeat.DXT | 2136 octets | 1231 octets compresses
+  PackRepeat.WAV | 792 octets | 396 octets compresses
+  PackRepeat.ANM | 376 octets | 257 octets compresses
+C4_ColombianRainForest\C4_3_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 239708 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C4_ColombianRainForest\C4_3.zip | 28 fichiers | 14338943 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:3, .pal:1, .sdl:19, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C4_ColombianRainForest/MansionGuard.sdl | 3235 octets | 1173 octets compresses
+  Scripts/AllLevels/Std/AreaGuard.sdl | 3823 octets | 1302 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Scripts/C4_ColombianRainForest/C4_3ValidateAttack.sdl | 1099 octets | 448 octets compresses
+  Scripts/C4_ColombianRainForest/PlaneGuard.sdl | 276 octets | 195 octets compresses
+  Scripts/C4_ColombianRainForest/C4_3BaseGuard.sdl | 350 octets | 239 octets compresses
+  Scripts/C4_ColombianRainForest/C4_3PatrolGuard.sdl | 780 octets | 451 octets compresses
+  Scripts/AllLevels/Std/PatrolGuard.sdl | 1323 octets | 504 octets compresses
+  Scripts/C4_ColombianRainForest/C4_3MissionControl.sdl | 1279 octets | 539 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Scripts/C4_ColombianRainForest/TowerGuard.sdl | 4093 octets | 1251 octets compresses
+  Scripts/C4_ColombianRainForest/EntranceGuard.sdl | 195 octets | 148 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Scripts/C4_ColombianRainForest/DrugLord.sdl | 10181 octets | 2847 octets compresses
+  Scripts/C4_ColombianRainForest/MansionGuard_inside.sdl | 425 octets | 252 octets compresses
+  Scripts/C4_ColombianRainForest/LabGuard.sdl | 479 octets | 278 octets compresses
+  Pack.LGT | 3988051 octets | 1870089 octets compresses
+  Pack.SPK | 10097399 octets | 2946726 octets compresses
+  PackRepeat.PAL | 10968 octets | 6183 octets compresses
+  PackRepeat.DXT | 10968 octets | 5612 octets compresses
+  PackRepeat.WAV | 6024 octets | 2500 octets compresses
+  PackRepeat.ANM | 12716 octets | 3797 octets compresses
+C5_Sanitarium\C5_1_Elevators.zip | 2 fichiers | 2743 octets decompresses | .sdl:2
+  Scripts/C5_Sanitarium/5_1/ElevatorControl.sdl | 1750 octets | 630 octets compresses
+  Scripts/AllLevels/Std/Stdtypes.sdl | 993 octets | 374 octets compresses
+C5_Sanitarium\C5_1_LapTop.zip | 7 fichiers | 3251606 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:1, .pal:1, .spk:1, .wav:1
+  Worlds/CutScenes/LaptopBriefings/C5_1/C5_1_Laptop.mor | 3919 octets | 411 octets compresses
+  Pack.LGT | 109514 octets | 38754 octets compresses
+  Pack.SPK | 3131325 octets | 1123223 octets compresses
+  PackRepeat.PAL | 3144 octets | 2022 octets compresses
+  PackRepeat.DXT | 3144 octets | 1796 octets compresses
+  PackRepeat.WAV | 336 octets | 198 octets compresses
+  PackRepeat.ANM | 224 octets | 185 octets compresses
+C5_Sanitarium\C5_1_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 171442 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C5_Sanitarium\C5_1.zip | 31 fichiers | 12109189 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:4, .pal:1, .sdl:21, .spk:1, .wav:1
+  Scripts/C5_Sanitarium/5_1/SWAT_FINAL/CenCtrl.sdl | 4014 octets | 1310 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C5_Sanitarium/5_1/SWAT_FINAL/SwatMember.sdl | 20622 octets | 4411 octets compresses
+  Scripts/C5_Sanitarium/5_1/SWAT_FINAL/SwatBase.sdl | 21817 octets | 5301 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/C5_Sanitarium/5_1/SWAT_FINAL/TeamCtrl.sdl | 15963 octets | 3431 octets compresses
+  Scripts/C5_Sanitarium/5_1/MadManControl.sdl | 1623 octets | 614 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Scripts/C5_Sanitarium/5_1/ProfAss.sdl | 3967 octets | 1473 octets compresses
+  Scripts/AllLevels/Std/neutral.sdl | 13099 octets | 3403 octets compresses
+  Scripts/C5_Sanitarium/5_1/Madman.sdl | 12835 octets | 3198 octets compresses
+  Scripts/C5_Sanitarium/5_1/Madmen/OT_MadRunner.sdl | 2274 octets | 799 octets compresses
+  Scripts/C5_Sanitarium/5_1/SP_Guard.sdl | 3087 octets | 1180 octets compresses
+  Scripts/AllLevels/Std/guard.sdl | 35229 octets | 7429 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/FBI_Agent.mor | 8183 octets | 582 octets compresses
+  Scripts/C5_Sanitarium/5_1/CIAAgent.sdl | 10831 octets | 2975 octets compresses
+  Scripts/C5_Sanitarium/5_1/SP_Portier.sdl | 8710 octets | 2340 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Scripts/C5_Sanitarium/5_1/Madmen/CellGuy.sdl | 748 octets | 382 octets compresses
+  Scripts/C5_Sanitarium/5_1/EnterNextLevel.sdl | 980 octets | 448 octets compresses
+  Scripts/C5_Sanitarium/5_1/SwatActivate.sdl | 1257 octets | 506 octets compresses
+  Pack.LGT | 3217626 octets | 1365238 octets compresses
+  Pack.SPK | 8518366 octets | 2685009 octets compresses
+  PackRepeat.PAL | 18192 octets | 10502 octets compresses
+  PackRepeat.DXT | 18192 octets | 8921 octets compresses
+  PackRepeat.WAV | 6912 octets | 2881 octets compresses
+  PackRepeat.ANM | 14612 octets | 4571 octets compresses
+C5_Sanitarium\C5_2_Pre.zip | 6 fichiers | 1571951 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 1382887 octets | 168200 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+C5_Sanitarium\C5_2.zip | 23 fichiers | 7991426 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:4, .pal:1, .sdl:13, .spk:1, .wav:1
+  Worlds/Characters/Anims/Skeleton 07/Skeleton_07.mor | 44635 octets | 2204 octets compresses
+  Scripts/C5_Sanitarium/Personel02.sdl | 29 octets | 29 octets compresses
+  Scripts/C5_Sanitarium/personel01.sdl | 1053 octets | 487 octets compresses
+  Scripts/AllLevels/Std/RestrictedGuard.sdl | 2009 octets | 766 octets compresses
+  Scripts/AllLevels/Std/Guard.sdl | 35229 octets | 7429 octets compresses
+  Scripts/AllLevels/Std/Armed.sdl | 5741 octets | 1530 octets compresses
+  Scripts/AllLevels/Std/man.sdl | 2780 octets | 1038 octets compresses
+  Scripts/AllLevels/Std/being.sdl | 17344 octets | 4181 octets compresses
+  Scripts/AllLevels/Std/StdEvents.sdl | 3332 octets | 1341 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Scripts/C5_Sanitarium/Clone.sdl | 9428 octets | 2507 octets compresses
+  Scripts/C5_Sanitarium/CloneEvents.sdl | 187 octets | 98 octets compresses
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Scripts/C5_Sanitarium/ScientistMonologues.sdl | 1282 octets | 572 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Skeleton_10.mor | 17727 octets | 1088 octets compresses
+  Worlds/Characters/Anims/Skeleton 10/Scientist.mor | 3621 octets | 426 octets compresses
+  Scripts/C5_Sanitarium/Scientist.sdl | 10033 octets | 2553 octets compresses
+  Pack.LGT | 1860038 octets | 751117 octets compresses
+  Pack.SPK | 5876007 octets | 1984806 octets compresses
+  PackRepeat.PAL | 11160 octets | 6107 octets compresses
+  PackRepeat.DXT | 11160 octets | 5620 octets compresses
+  PackRepeat.WAV | 6384 octets | 2627 octets compresses
+  PackRepeat.ANM | 13756 octets | 4248 octets compresses
+C5_Sanitarium\C5-2_The_End.zip | 3 fichiers | 266810 octets decompresses | .mor:2, .ttf:1
+  Worlds/Characters/Anims/Skeleton 01/Skeleton_01.mor | 57498 octets | 1899 octets compresses
+  Worlds/CutScenes/MovieCuts/C5-2/C5-2_The_End/C5-2_The_End.mor | 20304 octets | 917 octets compresses
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+C5_Sanitarium\Guard_Call_Professor.zip | 1 fichiers | 1053 octets decompresses | .sdl:1
+  Scripts/C5_Sanitarium/Cut_Guard_Call.sdl | 1053 octets | 390 octets compresses
+Cutscenes\C1_HongKong\C1_1_HitmanArrive.zip | 10 fichiers | 812471 octets decompresses | .anm:1, .dxt:1, .lgt:1, .mor:1, .pal:1, .sdl:2, .spk:1, .ttf:1, .wav:1
+  Worlds/CutScenes/MovieCuts/C1-1/C1_1_Hitman_Arrive/C1_1_Hitman_Arrive.mor | 2252 octets | 280 octets compresses
+  Scripts/C1_HONGKONG/C1_1_IntroSequence.sdl | 768 octets | 380 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 91163 octets | 25857 octets compresses
+  Pack.SPK | 523743 octets | 189932 octets compresses
+  PackRepeat.PAL | 1008 octets | 671 octets compresses
+  PackRepeat.DXT | 1008 octets | 608 octets compresses
+  PackRepeat.WAV | 2280 octets | 958 octets compresses
+  PackRepeat.ANM | 248 octets | 194 octets compresses
+Cutscenes\FlashBacks\FlashBack1_4.zip | 7 fichiers | 1431500 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .sdl:1, .spk:1, .wav:1
+  Scripts/C1_HONGKONG/C1_4_FlashBack.sdl | 674 octets | 342 octets compresses
+  Pack.LGT | 14128 octets | 6624 octets compresses
+  Pack.SPK | 1413634 octets | 793166 octets compresses
+  PackRepeat.PAL | 648 octets | 467 octets compresses
+  PackRepeat.DXT | 648 octets | 452 octets compresses
+  PackRepeat.WAV | 1320 octets | 626 octets compresses
+  PackRepeat.ANM | 448 octets | 276 octets compresses
+Cutscenes\FlashBacks\FlashBack2_2.zip | 7 fichiers | 1437956 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .sdl:1, .spk:1, .wav:1
+  Scripts/C2_RotterdamHabor/C2_2/C2_2_FlashBack.sdl | 676 octets | 348 octets compresses
+  Pack.LGT | 14128 octets | 6629 octets compresses
+  Pack.SPK | 1420088 octets | 796752 octets compresses
+  PackRepeat.PAL | 648 octets | 467 octets compresses
+  PackRepeat.DXT | 648 octets | 452 octets compresses
+  PackRepeat.WAV | 1320 octets | 633 octets compresses
+  PackRepeat.ANM | 448 octets | 276 octets compresses
+Cutscenes\FlashBacks\FlashBack3_1.zip | 7 fichiers | 1433949 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .sdl:1, .spk:1, .wav:1
+  Scripts/C3_BudapestHotel/C3_1_FlashBack.sdl | 676 octets | 348 octets compresses
+  Pack.LGT | 14128 octets | 6624 octets compresses
+  Pack.SPK | 1416081 octets | 795308 octets compresses
+  PackRepeat.PAL | 648 octets | 467 octets compresses
+  PackRepeat.DXT | 648 octets | 452 octets compresses
+  PackRepeat.WAV | 1320 octets | 628 octets compresses
+  PackRepeat.ANM | 448 octets | 276 octets compresses
+Cutscenes\FlashBacks\FlashBack5_1.zip | 7 fichiers | 1438094 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .sdl:1, .spk:1, .wav:1
+  Scripts/C2_RotterdamHabor/C2_2/C2_2_FlashBack.sdl | 676 octets | 348 octets compresses
+  Pack.LGT | 14128 octets | 6629 octets compresses
+  Pack.SPK | 1420226 octets | 794632 octets compresses
+  PackRepeat.PAL | 648 octets | 467 octets compresses
+  PackRepeat.DXT | 648 octets | 452 octets compresses
+  PackRepeat.WAV | 1320 octets | 633 octets compresses
+  PackRepeat.ANM | 448 octets | 276 octets compresses
+Cutscenes\FlashBacks\FlashBacks.zip | 1 fichiers | 173616 octets decompresses | .ttf:1
+  Bitmaps/Fonts/cour.ttf | 173616 octets | 104275 octets compresses
+Cutscenes\Intro\Intro.zip | 8 fichiers | 3308428 octets decompresses | .anm:1, .dxt:1, .lgt:1, .pal:1, .sdl:2, .spk:1, .wav:1
+  Scripts/AllLevels/IntroMovie.sdl | 638 octets | 278 octets compresses
+  Scripts/AllLevels/Std/StdTypes.sdl | 993 octets | 374 octets compresses
+  Pack.LGT | 2839 octets | 983 octets compresses
+  Pack.SPK | 3301350 octets | 1986665 octets compresses
+  PackRepeat.PAL | 648 octets | 471 octets compresses
+  PackRepeat.DXT | 648 octets | 461 octets compresses
+  PackRepeat.WAV | 1056 octets | 524 octets compresses
+  PackRepeat.ANM | 256 octets | 192 octets compresses
+Intro.zip | 6 fichiers | 1651876 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:1, .wav:1
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 65 octets | 42 octets compresses
+  Pack.SPK | 1462499 octets | 101436 octets compresses
+  PackRepeat.PAL | 144 octets | 113 octets compresses
+  PackRepeat.DXT | 144 octets | 111 octets compresses
+  PackRepeat.WAV | 16 octets | 16 octets compresses
+OptionsScreen.zip | 7 fichiers | 923010 octets decompresses | .dxt:1, .lgt:1, .pal:1, .spk:1, .ttf:2, .wav:1
+  Bitmaps/Fonts/times.ttf | 322824 octets | 183969 octets compresses
+  Bitmaps/Fonts/timesi.ttf | 189008 octets | 123857 octets compresses
+  Pack.LGT | 8 octets | 8 octets compresses
+  Pack.SPK | 411090 octets | 59579 octets compresses
+  PackRepeat.PAL | 16 octets | 16 octets compresses
+  PackRepeat.DXT | 16 octets | 16 octets compresses
+  PackRepeat.WAV | 48 octets | 45 octets compresses
+Setup\locale.zip | 2 fichiers | 219899 octets decompresses | .cfg:1, .xml:1
+  resources.xml | 219879 octets | 47016 octets compresses
+  thiszip.cfg | 20 octets | 20 octets compresses
+Setup\Locale\language-Deutsch.zip | 2 fichiers | 236237 octets decompresses | .cfg:1, .xml:1
+  resources.xml | 236217 octets | 53040 octets compresses
+  thiszip.cfg | 20 octets | 20 octets compresses
+Setup\Locale\language-English.zip | 2 fichiers | 219899 octets decompresses | .cfg:1, .xml:1
+  resources.xml | 219879 octets | 47016 octets compresses
+  thiszip.cfg | 20 octets | 20 octets compresses
+Setup\Locale\language-Espańol.zip | 2 fichiers | 232637 octets decompresses | .cfg:1, .xml:1
+  resources.xml | 232617 octets | 51438 octets compresses
+  thiszip.cfg | 20 octets | 20 octets compresses
+Setup\Locale\language-Français.zip | 2 fichiers | 239694 octets decompresses | .cfg:1, .xml:1
+  resources.xml | 239673 octets | 53301 octets compresses
+  thiszip.cfg | 21 octets | 21 octets compresses
+Setup\Locale\language-Italiano.zip | 2 fichiers | 231229 octets decompresses | .cfg:1, .xml:1
+  resources.xml | 231208 octets | 50757 octets compresses
+  thiszip.cfg | 21 octets | 21 octets compresses
