@@ -4,7 +4,7 @@ Portage non officiel du moteur de **Hitman: Codename 47** (2000, IO Interactive)
 
 ---
 
-## ⚠️ Avertissement légal / Legal Disclaimer
+##  Avertissement légal / Legal Disclaimer
 
 * Ce dépôt contient **uniquement du code source open-source et des outils de conversion**.
 * **Aucun fichier ni ressource sous copyright n'est inclus** (pas de textures, modèles 3D, sons, musiques ou scripts du jeu).
@@ -13,7 +13,7 @@ Portage non officiel du moteur de **Hitman: Codename 47** (2000, IO Interactive)
 
 ---
 
-## 📌 État actuel du projet
+##  État actuel du projet
 
 Le projet est actuellement un **moteur d'exploration 3D de scènes** (visualiseur de niveaux complets) :
 * ✅ Rendu 3D natif accéléré par le GPU PICA200 via **Citro3D** avec shaders personnalisés.
@@ -26,7 +26,7 @@ Le projet est actuellement un **moteur d'exploration 3D de scènes** (visualiseu
 
 ---
 
-## 🛠️ Comment convertir vos fichiers de jeu
+##  Comment convertir vos fichiers de jeu
 
 ### Prérequis sur votre PC
 1. **Python 3.10+** installé.
@@ -49,11 +49,11 @@ python c47tool.py
 1. **Onglet 1 · Convertir** :
    * Cliquez sur **« Parcourir… »** à côté de *Dossier du jeu* et sélectionnez votre dossier d'installation (*Hitman Codename 47*).
    * Choisissez un dossier de sortie (par exemple `convertion`).
-   * Cliquez sur **« ▶ Lancer la conversion »**.
+   * Cliquez sur **« Lancer la conversion »**.
    * Les 13 missions, modèles 3D et textures sont convertis au format optimisé 3DS.
 
 2. **Onglet 2 · Empaqueter** :
-   * Cliquez sur **« ▶ Créer data.c47p »**.
+   * Cliquez sur **« Créer data.c47p »**.
    * Cela fusionne tous les fichiers convertis dans une seule archive ultra-rapide sans compression `data.c47p` (~280 Mo).
    * Cliquez sur **« Copier sur la carte SD… »** et sélectionnez la racine de votre carte SD.
 
@@ -71,7 +71,7 @@ python tools/c47pack.py build/phase2 data.c47p
 
 ---
 
-## 💾 Installation sur la console 3DS
+##  Installation sur la console 3DS
 
 Copiez les fichiers sur votre carte SD selon l'arborescence suivante :
 
@@ -88,7 +88,7 @@ Lancez ensuite **Hitman 47** depuis le **Homebrew Launcher**.
 
 ---
 
-## 🎮 Contrôles en jeu
+##  Contrôles en jeu
 
 ### Menu principal
 | Bouton | Action |
@@ -131,7 +131,7 @@ Ce mode permet de visiter librement l'ensemble des décors et pièces de chaque 
 
 ---
 
-## 🏗️ Compilation depuis les sources
+##  Compilation depuis les sources
 
 Pour recompiler le projet vous-même :
 * Installez **devkitPro** avec les paquets 3DS (`devkitARM`, `libctru`, `citro3d`, `picasso`, `tex3ds`).
@@ -143,6 +143,6 @@ Pour recompiler le projet vous-même :
 
 ---
 
-## 📜 Licence & Crédits
+## Licence & Crédits
 * *Hitman: Codename 47* est une marque déposée et propriété intellectuelle de **IO Interactive**.
 * Le code du moteur de portage et des outils est distribué à des fins éducatives et de recherche.
